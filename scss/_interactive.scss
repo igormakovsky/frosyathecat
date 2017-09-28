@@ -1,0 +1,65 @@
+.touch {
+    transition-duration: .25s;
+    &:hover {
+        transform: rotate(3deg);
+        filter: brightness(102%);
+    }
+}
+
+.heavy {
+    transition-duration: .25s;
+    &:hover {
+        transform: rotate(-1deg);
+    }
+}
+
+.drag {
+    width: auto;
+    height: auto;
+    position: absolute;
+    cursor: grab;
+    transform: translate(0px, 0px);
+    z-index: 1;
+    img {
+        @extend .touch;
+    }
+}
+
+.spin {
+    position: absolute;
+    cursor: grab;
+    img {
+        @extend .touch;
+    }
+}
+
+.opaque {
+    transition-duration: .5s;
+    opacity: 1;
+    &:hover {
+        opacity: .8;
+    }
+}
+
+.scrollhor,
+.scrollvert {
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+.scale {
+    transition: transform .5s;
+    transform-origin: center !important;
+    cursor: pointer;
+    &:hover {
+        transform: scale(1.1);
+    }
+    &__bottom {
+        transform-origin: bottom center;
+        transition: transform .5s;
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+}

@@ -1,0 +1,306 @@
+/* body {
+    background-color: $bg;
+} */
+a,
+p,
+h1,
+ul {
+  color: #f0eae1;
+}
+
+#back-1 {
+  left: 10em;
+  top: 20em;
+  -webkit-transform: rotate(-15deg);
+          transform: rotate(-15deg);
+}
+
+#back-2 {
+  left: -10em;
+  top: 28em;
+  -webkit-transform: rotate(15deg);
+          transform: rotate(15deg);
+}
+
+#back-3 {
+  right: -10em;
+  bottom: 0em;
+  -webkit-transform: rotate(30deg);
+          transform: rotate(30deg);
+}
+
+#back-4 {
+  right: -30em;
+  bottom: 39em;
+  -webkit-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+}
+
+#back-5 {
+  right: 30em;
+  bottom: 70em;
+  -webkit-transform: rotate(10deg);
+          transform: rotate(10deg);
+}
+
+#back-6 {
+  left: -30em;
+  bottom: 100em;
+  -webkit-transform: rotate(40deg);
+          transform: rotate(40deg);
+}
+
+#back-7 {
+  left: -40em;
+  bottom: 130em;
+  -webkit-transform: rotate(20deg);
+          transform: rotate(20deg);
+}
+
+#back-8 {
+  right: -15em;
+  bottom: 80em;
+  -webkit-transform: rotate(-20deg);
+          transform: rotate(-20deg);
+}
+
+#back-9 {
+  right: 15em;
+  bottom: 150em;
+  -webkit-transform: rotate(44deg);
+          transform: rotate(44deg);
+}
+
+#back-10 {
+  right: 30em;
+  top: 90em;
+  -webkit-transform: rotate(44deg);
+          transform: rotate(44deg);
+}
+
+#back-11 {
+  right: 35em;
+  top: 113em;
+  -webkit-transform: rotate(79deg);
+          transform: rotate(79deg);
+}
+
+#back-12 {
+  right: 0em;
+  top: 200em;
+  -webkit-transform: rotate(15deg);
+          transform: rotate(15deg);
+}
+
+#archer {
+  left: 0em;
+  top: 1.7em;
+  -webkit-transform: rotate(-5deg);
+          transform: rotate(-5deg);
+}
+
+#bowman {
+  left: -2em;
+  top: 43em;
+  -webkit-transform: rotate(34deg);
+          transform: rotate(34deg);
+}
+
+#catapult {
+  left: 23em;
+  bottom: 30em;
+  -webkit-transform: rotate(-36deg);
+          transform: rotate(-36deg);
+}
+
+#champion {
+  right: -30em;
+  top: 25em;
+  -webkit-transform: rotate(36deg);
+          transform: rotate(36deg);
+}
+
+#churchboy {
+  right: 10em;
+  top: 37em;
+  -webkit-transform: rotate(21deg);
+          transform: rotate(21deg);
+}
+
+#crusader {
+  right: 30em;
+  top: 60em;
+  -webkit-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+}
+
+#damsel {
+  right: -10em;
+  top: 68em;
+  -webkit-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+}
+
+#drunk {
+  right: 19em;
+  top: 80em;
+  -webkit-transform: rotate(30deg);
+          transform: rotate(30deg);
+}
+
+#field {
+  left: -8em;
+  top: 90em;
+  -webkit-transform: rotate(-14deg);
+          transform: rotate(-14deg);
+}
+
+#foggymountains {
+  right: 10em;
+  top: 106em;
+  -webkit-transform: rotate(-25deg);
+          transform: rotate(-25deg);
+}
+
+#guard {
+  right: 0em;
+  top: 90em;
+  -webkit-transform: rotate(5deg);
+          transform: rotate(5deg);
+}
+
+#hover-islands {
+  right: -15em;
+  top: 117em;
+  -webkit-transform: rotate(20deg);
+          transform: rotate(20deg);
+}
+
+#inquisitor {
+  left: -14em;
+  top: 130em;
+  -webkit-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+}
+
+#joker {
+  left: 20em;
+  top: 135em;
+  -webkit-transform: rotate(15deg);
+          transform: rotate(15deg);
+}
+
+#knight {
+  left: -10em;
+  top: 170em;
+  -webkit-transform: rotate(30deg);
+          transform: rotate(30deg);
+}
+
+#lake {
+  right: -10em;
+  top: 175em;
+  -webkit-transform: rotate(-15deg);
+          transform: rotate(-15deg);
+}
+
+#legionary {
+  right: -9em;
+  top: 174em;
+  -webkit-transform: rotate(-13deg);
+          transform: rotate(-13deg);
+}
+
+#monk {
+  right: -30em;
+  top: 195em;
+  -webkit-transform: rotate(24deg);
+          transform: rotate(24deg);
+}
+
+#mountains {
+  right: 10em;
+  top: 210em;
+  -webkit-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+}
+
+#paladin {
+  left: 0em;
+  top: 230em;
+  -webkit-transform: rotate(20deg);
+          transform: rotate(20deg);
+}
+
+#peasant {
+  left: 2em;
+  top: 230em;
+  -webkit-transform: rotate(-7deg);
+          transform: rotate(-7deg);
+}
+
+#pikeman {
+  left: 12em;
+  top: 250em;
+  -webkit-transform: rotate(30deg);
+          transform: rotate(30deg);
+}
+
+#planes {
+  left: -10em;
+  top: 258em;
+  -webkit-transform: rotate(3deg);
+          transform: rotate(3deg);
+}
+
+#sailor {
+  left: 10em;
+  top: 270em;
+  -webkit-transform: rotate(10deg);
+          transform: rotate(10deg);
+}
+
+#sniper {
+  right: 9em;
+  top: 280em;
+  -webkit-transform: rotate(-4deg);
+          transform: rotate(-4deg);
+}
+
+#sword {
+  left: 14em;
+  top: 290em;
+  -webkit-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+}
+
+#thief {
+  left: 32em;
+  top: 320em;
+  -webkit-transform: rotate(15deg);
+          transform: rotate(15deg);
+}
+
+#traveller {
+  left: 10em;
+  top: 340em;
+  -webkit-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+}
+
+#instructions-1 {
+  top: 150em;
+}
+
+#instructions-2 {
+  bottom: -30em;
+}
+
+#artefact {
+  right: 0em;
+  bottom: 30em;
+  -webkit-transform: rotate(10deg);
+          transform: rotate(10deg);
+}
+
+/*# sourceMappingURL=custom.css.map */

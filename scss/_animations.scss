@@ -1,0 +1,450 @@
+.rotates {
+    animation: rotates 20s linear 0s infinite normal;
+    &.normal {
+        animation-duration: 10s;
+    }
+    &.slow {
+        animation-duration: 30s;
+    }
+    &.redsquare {
+        animation-duration: 300s;
+    }
+}
+
+@keyframes rotates {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.blurry {
+    animation: blurry 8s linear 0s infinite alternate;
+}
+
+@keyframes blurry {
+    0% {
+        filter: blur(0px);
+    }
+    20% {
+        filter: blur(6px);
+    }
+    40% {
+        filter: blur(3px);
+    }
+    60% {
+        filter: blur(5px);
+    }
+    80% {
+        filter: blur(1px);
+    }
+    100% {
+        filter: blur(7px);
+    }
+}
+
+.hover {
+    animation: hover 4s ease-in-out 0s infinite alternate;
+}
+
+@keyframes hover {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(0, 1em);
+    }
+}
+
+.glow {
+    animation: glow 4s ease-in-out 0s infinite alternate;
+}
+
+@keyframes glow {
+    0% {
+        opacity: .6;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.wind {
+    animation: wind 5s ease-in-out 0s infinite alternate;
+    transform-origin: bottom center;
+}
+
+@keyframes wind {
+    0% {
+        transform: rotate(-7deg);
+    }
+    100% {
+        transform: rotate(7deg);
+    }
+}
+
+.left-right {
+    animation: left-right 3s ease-in-out 0s infinite alternate;
+}
+
+@keyframes left-right {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(-1em, 0);
+    }
+}
+
+//
+.animation-defaults {
+    position: absolute;
+    z-index: 1;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+//
+.horizontal {
+    @extend .animation-defaults;
+    animation-name: horizontal;
+    &-small {
+        @extend .horizontal;
+        animation-name: horizontal-small;
+    }
+}
+
+@keyframes horizontal {
+    100% {
+        transform: translate(5rem, 0);
+    }
+}
+
+@keyframes horizontal-small {
+    100% {
+        transform: translate(2.5rem, 0);
+    }
+}
+
+//
+.vertical {
+    @extend .animation-defaults;
+    animation-name: vertical;
+    &-small {
+        @extend .animation-defaults;
+        animation-name: vertical-small;
+    }
+}
+
+@keyframes vertical {
+    100% {
+        transform: translate(0, 5rem);
+    }
+}
+
+@keyframes vertical-small {
+    100% {
+        transform: translate(0, 2.5rem);
+    }
+}
+
+//
+.shaker {
+    @extend .animation-defaults;
+    animation-name: shaker;
+    transform-origin: bottom center;
+    &-small {
+        @extend .animation-defaults;
+        animation-name: shaker-small;
+    }
+}
+
+@keyframes shaker {
+    100% {
+        transform: rotate(3deg);
+    }
+}
+
+@keyframes shaker-small {
+    100% {
+        transform: rotate(1deg);
+    }
+}
+
+//
+.circle {
+    @extend .animation-defaults;
+    animation-name: circle;
+    animation-direction: normal;
+    animation-timing-function: linear;
+    &-rev {
+        @extend .circle;
+        animation-name: circle-rev;
+    }
+}
+
+@keyframes circle {
+    from {
+        transform: rotate(0deg) translateX(40px) rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg) translateX(40px) rotate(-360deg);
+    }
+}
+
+@keyframes circle-rev {
+    from {
+        transform: rotate(0deg) translateX(40px) rotate(0deg);
+    }
+    to {
+        transform: rotate(-360deg) translateX(40px) rotate(360deg);
+    }
+}
+
+//
+.appear {
+    opacity: 0;
+    animation-duration: .5s;
+    animation-delay: 1s;
+}
+
+.appear-blur {
+    opacity: 0;
+    filter: blur(5px);
+    animation-duration: 1.5s;
+    animation-delay: 1s;
+}
+
+.appeared-blur {
+    opacity: 1;
+    filter: blur(0px);
+}
+
+.grow {
+    transition: all .5s cubic-bezier(.5, 1.41, .95, 1.07) 1.5s;
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.grown {
+    opacity: 1;
+    transform: scale(1);
+}
+
+//delay
+@mixin delay($delay) {
+    transition-delay: $delay + s;
+    animation-delay: $delay + s;
+}
+
+.del0 {
+    @include delay(0);
+}
+
+.del05 {
+    @include delay(.5);
+}
+
+.del1 {
+    @include delay(1);
+}
+
+.del1-5 {
+    @include delay(1.5);
+}
+
+.del2 {
+    @include delay(2);
+}
+
+.del25 {
+    @include delay(2.5);
+}
+
+.del3 {
+    @include delay(3);
+}
+
+.del35 {
+    @include delay(3.5);
+}
+
+.del4 {
+    @include delay(4);
+}
+
+.del5 {
+    @include delay(5);
+}
+
+.del6 {
+    @include delay(6);
+}
+
+.del7 {
+    @include delay(7);
+}
+
+.del8 {
+    @include delay(8);
+}
+
+.del9 {
+    @include delay(9);
+}
+
+.del10 {
+    @include delay(10);
+}
+
+.del11 {
+    @include delay(11);
+}
+
+.del12 {
+    @include delay(12);
+}
+
+//duration
+@mixin duration($duration) {
+    transition-duration: $duration + s;
+    animation-duration: $duration + s;
+}
+
+.dur01 {
+    @include duration(.1);
+}
+
+.dur02 {
+    @include duration(.2);
+}
+
+.dur03 {
+    @include duration(.3);
+}
+
+.dur04 {
+    @include duration(.4);
+}
+
+.dur05 {
+    @include duration(.5);
+}
+
+.dur1 {
+    @include duration(1);
+}
+
+.dur1-5 {
+    @include duration(1.5);
+}
+
+.dur2 {
+    @include duration(2);
+}
+
+.dur25 {
+    @include duration(2.5);
+}
+
+.dur3 {
+    @include duration(3);
+}
+
+.dur4 {
+    @include duration(4);
+}
+
+.dur5 {
+    @include duration(5);
+}
+
+.dur10 {
+    @include duration(10);
+}
+
+.dur15 {
+    @include duration(15);
+}
+
+.dur20 {
+    @include duration(20);
+}
+
+.dur25 {
+    @include duration(25);
+}
+
+.dur30 {
+    @include duration(30);
+}
+
+.dur35 {
+    @include duration(35);
+}
+
+.dur40 {
+    @include duration(40);
+}
+
+.dur45 {
+    @include duration(45);
+}
+
+.dur50 {
+    @include duration(50);
+}
+
+.dur55 {
+    @include duration(55);
+}
+
+.dur60 {
+    @include duration(60);
+}
+
+.dur70 {
+    @include duration(70);
+}
+
+.dur80 {
+    @include duration(80);
+}
+
+.dur90 {
+    @include duration(90);
+}
+
+.dur100 {
+    @include duration(100);
+}
+
+.dur120 {
+    @include duration(120);
+}
+
+.dur140 {
+    @include duration(140);
+}
+
+//
+.rev {
+    animation-direction: reverse;
+}
+
+.altrev {
+    animation-direction: alternate-reverse;
+}
+
+//legacy
+.slow {
+    @extend .del1-5;
+    @extend .dur1-5;
+}
+
+.slowest {
+    @extend .dur30;
+}

@@ -1,0 +1,386 @@
+@import "../../../scss/retinajs";
+$bg:#8dcfbb;
+$color:#f0eae1;
+
+/* body {
+    background-color: $bg;
+} */
+
+a,
+p,
+h1,
+ul {
+    color: $color;
+}
+
+#box-red {
+    top: -5em;
+    left: 5em;
+    transform: rotate(15deg);
+}
+
+#red-angel {
+    left: 10em;
+    top: 1em;
+    transform: rotate(16deg);
+}
+
+#red-crusader {
+    left: 11em;
+    top: 1em;
+    transform: rotate(18deg);
+}
+
+#red-enchantment {
+    left: 11.5em;
+    top: 2em;
+    transform: rotate(16deg);
+}
+
+#red-fanatic {
+    left: 10em;
+    top: .5em;
+    transform: rotate(14deg);
+}
+
+#red-halberdier {
+    left: -10em;
+    top: 90em;
+    transform: rotate(14deg);
+}
+
+#red-knife {
+    left: -25em;
+    top: 65em;
+    transform: rotate(80deg);
+}
+
+#red-knight {
+    left: -25em;
+    top: 65.5em;
+    transform: rotate(-103deg);
+}
+
+#red-archangel {
+    right: 13em;
+    top: 130em;
+    transform: rotate(7deg);
+}
+
+#red-back-1 {
+    left: 11em;
+    top: 1em;
+    transform: rotate(17deg);
+}
+
+#red-back-2 {
+    right: 1em;
+    top: 27em;
+    transform: rotate(210deg);
+}
+
+#red-archer {
+    right: -7em;
+    top: 2em;
+    transform: rotate(65deg);
+}
+
+#red-blessed-planes {
+    top: 35em;
+    left: -5em;
+    transform: rotate(-30deg);
+}
+
+#red-back-3 {
+    top: 60em;
+    left: 9em;
+    transform: rotate(-5deg);
+}
+
+#red-cross {
+    left: 27em;
+    top: 55em;
+    transform: rotate(9deg);
+}
+
+#red-monk {
+    top: 55em;
+    right: 19.5em;
+    transform: rotate(15deg);
+}
+
+#red-ninja {
+    top: 64em;
+    right: 4em;
+    transform: rotate(-32deg);
+}
+
+#red-planes-1 {
+    top: 111em;
+    left: 15em;
+    transform: rotate(-15deg);
+}
+
+#red-peasant {
+    top: 82em;
+    right: 20em;
+    transform: rotate(30deg);
+}
+
+#red-back-4 {
+    right: 14em;
+    top: 131em;
+    transform: rotate(-8deg);
+}
+
+#red-planes-2 {
+    right: -5em;
+    top: 121em;
+    transform: rotate(6deg);
+}
+
+#red-back-5 {
+    right: -20em;
+    top: 143em;
+    transform: rotate(25deg);
+}
+
+#red-planes-3 {
+    left: 38em;
+    top: 160em;
+    transform: rotate(23deg);
+}
+
+#red-planes-4 {
+    left: 8em;
+    top: 168em;
+    transform: rotate(13deg);
+}
+
+#red-planes-5 {
+    left: 22em;
+    top: 180em;
+    transform: rotate(35deg);
+}
+
+#red-planes-6 {
+    left: -10em;
+    top: 193em;
+    transform: rotate(60deg);
+}
+
+#red-rats {
+    left: 22em;
+    top: 179em;
+    transform: rotate(36deg);
+}
+
+#red-resurrection {
+    top: 190em;
+    right: 9em;
+    transform: rotate(-30deg);
+}
+
+#red-sailor {
+    top: 190em;
+    right: 10em;
+    transform: rotate(-28deg);
+}
+
+#red-back-7 {
+    top: 212em;
+    left: 3em;
+    transform: rotate(-10deg);
+}
+
+#red-shooter {
+    top: 210em;
+    left: 3em;
+    transform: rotate(-8deg);
+}
+
+#red-spearman {
+    top: 160em;
+    left: -30em;
+    transform: rotate(-10deg);
+}
+
+#red-strength {
+    top: 230em;
+    left: 30em;
+    transform: rotate(-13deg);
+}
+
+#red-suicide {
+    top: 230em;
+    left: 30em;
+    transform: rotate(-17deg);
+}
+
+#red-wall {
+    top: 230em;
+    left: 30em;
+    transform: rotate(-19deg);
+}
+
+#red-back-6 {
+    top: 230em;
+    left: 30em;
+    transform: rotate(-21deg);
+}
+
+#red-back-8 {
+    top: 220em;
+    right: -10em;
+    transform: rotate(-60deg);
+}
+
+#green-back-1 {
+    top: 244em;
+    right: -10em;
+    transform: rotate(20deg);
+}
+
+#green-centaur-mage {
+    top: 243em;
+    left: 14em;
+    transform: rotate(3deg);
+}
+
+#green-catapult {
+    top: 254em;
+    right: 10em;
+    transform: rotate(10deg);
+}
+
+#green-back-2 {
+    top: 254em;
+    right: 10em;
+    transform: rotate(10deg);
+}
+
+#green-back-3 {
+    left: -11em;
+    top: 279em;
+    transform: rotate(-35deg);
+}
+
+#green-centaur {
+    left: -10em;
+    top: 280em;
+    transform: rotate(-36deg);
+}
+
+#green-dendroid-soldier {
+    left: 23em;
+    top: 293em;
+    transform: rotate(-65deg);
+}
+
+#green-dendroid {
+    left: 5em;
+    top: 310em;
+    transform: rotate(10deg);
+}
+
+#green-dragon {
+    left: 22em;
+    top: 293em;
+    transform: rotate(-67deg);
+}
+
+#green-back-5 {
+    left: 22em;
+    top: 293em;
+    transform: rotate(-66deg);
+}
+
+#green-elf {
+    left: 30em;
+    top: 309em;
+    transform: rotate(75deg);
+}
+
+#green-fear {
+    left: 30em;
+    top: 327em;
+    transform: rotate(25deg);
+}
+
+#green-frog {
+    right: -10em;
+    top: 320em;
+    transform: rotate(-25deg);
+}
+
+#green-hobbit {
+    right: -10em;
+    top: 320em;
+    transform: rotate(-24deg);
+}
+
+#green-lightingstrike {
+    right: -30em;
+    top: 265em;
+    transform: rotate(-124deg);
+}
+
+#green-mountains {
+    left: 5em;
+    top: 342em;
+    transform: rotate(13deg);
+}
+
+#green-royal-elf {
+    left: -15em;
+    top: 351em;
+    transform: rotate(20deg);
+}
+
+#green-back-4 {
+    left: -15em;
+    top: 351em;
+    transform: rotate(21deg);
+}
+
+#green-back-6 {
+    left: -15em;
+    top: 351em;
+    transform: rotate(22deg);
+}
+
+#green-unicorn {
+    left: 30em;
+    top: 362em;
+    transform: rotate(30deg);
+}
+
+#green-back-7 {
+    right: 10em;
+    top: 392em;
+    transform: rotate(-27deg);
+}
+
+#green-back-8 {
+    right: -3em;
+    top: 382em;
+    transform: rotate(-34deg);
+}
+
+#green-woodelf {
+    right: 10em;
+    top: 373em;
+    transform: rotate(55deg);
+}
+
+#green-wooden-skin {
+    left: 2em;
+    top: 412em;
+    transform: rotate(155deg);
+}
+
+#box-green {
+    transform: rotate(30deg);
+    bottom: -10em;
+    left: 1em;
+}

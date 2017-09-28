@@ -1,0 +1,11 @@
+<IfModule mod_rewrite.c>
+        RewriteEngine On
+        RewriteBase /
+	#from with-www to without-www
+	RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+	RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+        # Removes index.php from ExpressionEngine URLs
+        RewriteCond %{THE_REQUEST} ^GET.*index\.php [NC]
+        RewriteRule (.*?)index\.php/*(.*) /$1$2 [R=301,NE,L]
+
+</IfModule>

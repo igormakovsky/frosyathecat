@@ -1,0 +1,74 @@
+@import "../../../scss/retinajs";
+$bg:#8dcfbb;
+$color:#f0eae1;
+
+/* body {
+    background-color: $bg;
+} */
+
+a,
+p,
+h1,
+ul {
+    color: $color;
+}
+
+#cat-peasant-1 {
+    left: 14em;
+    top: 14.5em;
+    transform: rotate(35deg);
+}
+
+#cat-peasant-2.png {
+    right: -4.5em;
+    top: 24em;
+    transform: rotate(-120deg);
+}
+
+#cat-with-gold-1 {
+    left: 15em;
+    top: 30em;
+    transform: rotate(30deg);
+}
+
+#cat-with-gold-2 {
+    left: 13em;
+    top: 40em;
+    transform: rotate(0deg);
+}
+
+#cat-with-log-1 {
+    left: 35em;
+    top: 10em;
+    transform: rotate(-135deg);
+}
+
+#cat-with-log-2 {
+    left: 41.5em;
+    top: 6em;
+    transform: rotate(-115deg);
+}
+
+#dog-axethrower {
+    right: 10em;
+    top: 38em;
+    transform: rotate(-25deg);
+}
+
+#dog-soldier-1 {
+    right: 12em;
+    top: 50em;
+    transform: rotate(90deg);
+}
+
+#dog-soldier-2 {
+    right: 18em;
+    top: 57em;
+    transform: rotate(-25deg);
+}
+
+#dog-soldier-3 {
+    right: -5em;
+    top: 63em;
+    transform: rotate(0deg);
+}

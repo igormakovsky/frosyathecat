@@ -1,0 +1,302 @@
+@import "../../../scss/retinajs";
+$bg:#8dcfbb;
+$color:#f0eae1;
+
+/* body {
+    background-color: $bg;
+} */
+
+a,
+p,
+h1,
+ul {
+    color: $color;
+}
+
+#archangel {
+    left: 20em;
+    top: 10em;
+    transform: rotate(7deg);
+}
+
+#back-1 {
+    left: -3em;
+    top: 0;
+    transform: rotate(-29deg);
+}
+
+#elf {
+    right: 4em;
+    top: 23em;
+    transform: rotate(33deg);
+}
+
+#back-4 {
+    right: 4em;
+    top: 23em;
+    transform: rotate(30deg);
+}
+
+#back-2 {
+    right: 5em;
+    top: 23em;
+    transform: rotate(29deg);
+}
+
+#cat-cleric {
+    left: 7em;
+    top: 28em;
+    transform: rotate(31deg);
+}
+
+#cerberus {
+    left: -15em;
+    top: 40em;
+    transform: rotate(50deg);
+}
+
+#cleric {
+    left: 15em;
+    top: 44em;
+    transform: rotate(-13deg);
+}
+
+#contents-1 {
+    left: 1.5em;
+    top: 50em;
+    transform: rotate(56deg);
+}
+
+#devil {
+    left: 27em;
+    top: 83em;
+    transform: rotate(-21deg);
+}
+
+#dragon {
+    right: -1em;
+    top: 34em;
+    transform: rotate(45deg);
+}
+
+#dwarves {
+    right: 8em;
+    top: 95em;
+    transform: rotate(-10deg);
+}
+
+#back-3 {
+    right: 8em;
+    top: 95em;
+    transform: rotate(-9deg);
+}
+
+#field {
+    right: -20em;
+    top: 87em;
+    transform: rotate(-20deg);
+}
+
+#fireball {
+    right: -4em;
+    top: 65em;
+    transform: rotate(-7deg);
+}
+
+#foggy-mountatins {
+    top: 119em;
+    right: 10em;
+    transform: rotate(-5deg);
+}
+
+#back-5 {
+    top: 114em;
+    right: -5em;
+    transform: rotate(-13deg);
+}
+
+#gorge {
+    top: 114em;
+    right: -5em;
+    transform: rotate(-9deg);
+}
+
+#gnoll {
+    top: 114em;
+    right: -5em;
+    transform: rotate(-3deg);
+}
+
+#gremlin {
+    top: 124em;
+    left: 7em;
+    transform: rotate(6deg);
+}
+
+#heaven {
+    top: 140em;
+    left: 20em;
+    transform: rotate(10deg);
+}
+
+#hellknight {
+    top: 177em;
+    right: 25em;
+    transform: rotate(20deg);
+}
+
+#hills {
+    top: 149em;
+    right: 9em;
+    transform: rotate(16deg);
+}
+
+#back-7 {
+    top: 149em;
+    right: 9em;
+    transform: rotate(14deg);
+}
+
+#heretic {
+    top: 150em;
+    right: 10em;
+    transform: rotate(14deg);
+}
+
+#back-6 {
+    top: 150em;
+    right: 10em;
+    transform: rotate(12deg);
+}
+
+#hoblin {
+    top: 155em;
+    right: -6em;
+    transform: rotate(10deg);
+}
+
+#back-7-a {
+    left: 10em;
+    top: 160em;
+    transform: rotate(22deg);
+}
+
+#kind-knight {
+    left: 10em;
+    top: 160em;
+    transform: rotate(19deg);
+}
+
+#knight {
+    left: -10em;
+    top: 165em;
+    transform: rotate(34deg);
+}
+
+#mage {
+    left: 10em;
+    top: 200em;
+    transform: rotate(40deg);
+}
+
+#back-8 {
+    right: 10em;
+    top: 190em;
+    transform: rotate(15deg);
+}
+
+#missile {
+    right: -7em;
+    top: 190em;
+    transform: rotate(5deg);
+}
+
+#nicromancer {
+    right: -7em;
+    top: 190em;
+    transform: rotate(3deg);
+}
+
+#orc-cleric {
+    left: 20em;
+    top: 225em;
+    transform: rotate(30deg);
+}
+
+#orc {
+    left: 20em;
+    top: 226em;
+    transform: rotate(28deg);
+}
+
+#plain {
+    left: 20em;
+    top: 226em;
+    transform: rotate(26deg);
+}
+
+#poison {
+    top: 220em;
+    right: 12em;
+    transform: rotate(17deg);
+}
+
+#skeleton {
+    top: 243em;
+    right: 15em;
+    transform: rotate(-45deg);
+}
+
+#back-9 {
+    top: 210em;
+    left: -11em;
+    transform: rotate(-67deg);
+}
+
+#back-10 {
+    right: -13em;
+    top: 240em;
+    transform: rotate(-58deg);
+}
+
+#back-11 {
+    right: -10em;
+    top: 260em;
+    transform: rotate(-35deg);
+}
+
+#spellcaster {
+    right: -10em;
+    top: 260em;
+    transform: rotate(-33deg);
+}
+
+#wastes {
+    left: 6em;
+    top: 270em;
+    transform: rotate(33deg);
+}
+
+#wizard {
+    left: 6em;
+    top: 270em;
+    transform: rotate(35deg);
+}
+
+#staff {
+    left: 7em;
+    top: 270em;
+    transform: rotate(30deg);
+}
+
+#back-12 {
+    left: 7em;
+    top: 270em;
+    transform: rotate(29deg);
+}
+
+#back-13 {
+    left: 15em;
+    top: 285em;
+    transform: rotate(39deg);
+}

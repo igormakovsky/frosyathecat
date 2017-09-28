@@ -1,0 +1,268 @@
+@import "../../../scss/retinajs";
+$bg:#8dcfbb;
+$color:#f0eae1;
+
+/* body {
+    background-color: $bg;
+} */
+
+a,
+p,
+h1,
+ul {
+    color: $color;
+}
+
+#back-1 {
+    left: 10em;
+    top: 20em;
+    transform: rotate(-15deg);
+}
+
+#back-2 {
+    left: -10em;
+    top: 28em;
+    transform: rotate(15deg);
+}
+
+#back-3 {
+    right: -10em;
+    bottom: 0em;
+    transform: rotate(30deg);
+}
+
+#back-4 {
+    right: -30em;
+    bottom: 39em;
+    transform: rotate(-10deg);
+}
+
+#back-5 {
+    right: 30em;
+    bottom: 70em;
+    transform: rotate(10deg);
+}
+
+#back-6 {
+    left: -30em;
+    bottom: 100em;
+    transform: rotate(40deg);
+}
+
+#back-7 {
+    left: -40em;
+    bottom: 130em;
+    transform: rotate(20deg);
+}
+
+#back-8 {
+    right: -15em;
+    bottom: 80em;
+    transform: rotate(-20deg);
+}
+
+#back-9 {
+    right: 15em;
+    bottom: 150em;
+    transform: rotate(44deg);
+}
+
+#back-10 {
+    right: 30em;
+    top: 90em;
+    transform: rotate(44deg);
+}
+
+#back-11 {
+    right: 35em;
+    top: 113em;
+    transform: rotate(79deg);
+}
+
+#back-12 {
+    right: 0em;
+    top: 200em;
+    transform: rotate(15deg);
+}
+
+#archer {
+    left: 0em;
+    top: 1.7em;
+    transform: rotate(-5deg);
+}
+
+#bowman {
+    left: -2em;
+    top: 43em;
+    transform: rotate(34deg);
+}
+
+#catapult {
+    left: 23em;
+    bottom: 30em;
+    transform: rotate(-36deg);
+}
+
+#champion {
+    right: -30em;
+    top: 25em;
+    transform: rotate(36deg);
+}
+
+#churchboy {
+    right: 10em;
+    top: 37em;
+    transform: rotate(21deg);
+}
+
+#crusader {
+    right: 30em;
+    top: 60em;
+    transform: rotate(-10deg);
+}
+
+#damsel {
+    right: -10em;
+    top: 68em;
+    transform: rotate(-10deg);
+}
+
+#drunk {
+    right: 19em;
+    top: 80em;
+    transform: rotate(30deg);
+}
+
+#field {
+    left: -8em;
+    top: 90em;
+    transform: rotate(-14deg);
+}
+
+#foggymountains {
+    right: 10em;
+    top: 106em;
+    transform: rotate(-25deg);
+}
+
+#guard {
+    right: 0em;
+    top: 90em;
+    transform: rotate(5deg);
+}
+
+#hover-islands {
+    right: -15em;
+    top: 117em;
+    transform: rotate(20deg);
+}
+
+#inquisitor {
+    left: -14em;
+    top: 130em;
+    transform: rotate(-10deg);
+}
+
+#joker {
+    left: 20em;
+    top: 135em;
+    transform: rotate(15deg);
+}
+
+#knight {
+    left: -10em;
+    top: 170em;
+    transform: rotate(30deg);
+}
+
+#lake {
+    right: -10em;
+    top: 175em;
+    transform: rotate(-15deg);
+}
+
+#legionary {
+    right: -9em;
+    top: 174em;
+    transform: rotate(-13deg);
+}
+
+#monk {
+    right: -30em;
+    top: 195em;
+    transform: rotate(24deg);
+}
+
+#mountains {
+    right: 10em;
+    top: 210em;
+    transform: rotate(-10deg);
+}
+
+#paladin {
+    left: 0em;
+    top: 230em;
+    transform: rotate(20deg);
+}
+
+#peasant {
+    left: 2em;
+    top: 230em;
+    transform: rotate(-7deg);
+}
+
+#pikeman {
+    left: 12em;
+    top: 250em;
+    transform: rotate(30deg);
+}
+
+#planes {
+    left: -10em;
+    top: 258em;
+    transform: rotate(3deg);
+}
+
+#sailor {
+    left: 10em;
+    top: 270em;
+    transform: rotate(10deg);
+}
+
+#sniper {
+    right: 9em;
+    top: 280em;
+    transform: rotate(-4deg);
+}
+
+#sword {
+    left: 14em;
+    top: 290em;
+    transform: rotate(-10deg);
+}
+
+#thief {
+    left: 32em;
+    top: 320em;
+    transform: rotate(15deg);
+}
+
+#traveller {
+    left: 10em;
+    top: 340em;
+    transform: rotate(-10deg);
+}
+
+#instructions-1 {
+    top: 150em;
+}
+
+#instructions-2 {
+    bottom: -30em;
+}
+
+#artefact {
+    right: 0em;
+    bottom: 30em;
+    transform: rotate(10deg);
+}

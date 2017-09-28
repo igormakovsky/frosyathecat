@@ -1,0 +1,22 @@
+/* body {
+    background-color: $bg;
+} */
+a,
+p,
+h1,
+ul {
+  color: #f0eae1;
+}
+
+#bg1 {
+  background-image: url(img/bg-barinovcover.jpg);
+  background-image: url("../img/bg-barinovcover.jpg");
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5), all and (-o-min-device-pixel-ratio: 3 / 2), all and (min--moz-device-pixel-ratio: 1.5), all and (min-device-pixel-ratio: 1.5) {
+  #bg1 {
+    background-image: url("../img/bg-barinovcover@2x.jpg");
+    background-size: cover;
+  }
+}
+
+/*# sourceMappingURL=custom.css.map */

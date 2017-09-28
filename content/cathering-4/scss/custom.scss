@@ -1,0 +1,878 @@
+@import "../../../scss/retinajs";
+$bg:#8dcfbb;
+$color:#f0eae1;
+
+/* body {
+    background-color: $bg;
+} */
+
+a,
+p,
+h1,
+ul {
+    color: $color;
+}
+
+#book-cover {
+    top: 4em;
+    left: 10em;
+    transform: rotate(-3deg);
+}
+
+#back-1 {
+    left: 22em;
+    top: 48em;
+    transform: rotate(-10deg);
+}
+
+#red-angel {
+    right: 18.5em;
+    top: 68em;
+    transform: rotate(-13deg);
+}
+
+#back-2 {
+    right: 0;
+    top: 63em;
+    transform: rotate(-15deg);
+}
+
+#red-archangel {
+    right: 0;
+    top: 63em;
+    transform: rotate(-17deg);
+}
+
+#box-red-front {
+    left: 10em;
+    top: 94em;
+    transform: rotate(-17deg);
+}
+
+#box-red-back {
+    right: 11em;
+    top: 88em;
+    transform: rotate(-19deg);
+}
+
+#red-archer {
+    left: 12em;
+    top: 97em;
+    transform: rotate(-17deg);
+}
+
+#red-artefact {
+    left: 11em;
+    top: 98em;
+    transform: rotate(-20deg);
+}
+
+#red-bar {
+    right: 16em;
+    top: 119em;
+    transform: rotate(-10deg);
+}
+
+#red-bard {
+    left: 8em;
+    top: 122em;
+    transform: rotate(-7deg);
+}
+
+#red-betrayal {
+    left: 8em;
+    top: 122.5em;
+    transform: rotate(-6deg);
+}
+
+#red-bishop {
+    right: -3.4em;
+    top: 114em;
+    transform: rotate(-14deg);
+}
+
+#red-brotherhood {
+    right: -3.4em;
+    top: 114em;
+    transform: rotate(-13deg);
+}
+
+#back-3 {
+    right: -3.4em;
+    top: 114em;
+    transform: rotate(-12deg);
+}
+
+#red-catwoold {
+    right: -3.4em;
+    top: 114em;
+    transform: rotate(-13deg);
+}
+
+#red-caveview {
+    right: -4em;
+    top: 114.5em;
+    transform: rotate(-14deg);
+}
+
+#red-cleric {
+    right: -4em;
+    top: 114.5em;
+    transform: rotate(-13deg);
+}
+
+#red-cross {
+    right: -4em;
+    top: 113.5em;
+    transform: rotate(-12deg);
+}
+
+#back-4 {
+    right: -4em;
+    top: 113.5em;
+    transform: rotate(-12deg);
+}
+
+#red-crown {
+    right: 13em;
+    top: 137em;
+    transform: rotate(-10deg);
+}
+
+#red-excalibur {
+    left: 10em;
+    top: 141em;
+    transform: rotate(-5deg);
+}
+
+#red-field {
+    left: 10em;
+    top: 141em;
+    transform: rotate(-4deg);
+}
+
+#red-flight {
+    left: -8.5em;
+    top: 142em;
+    transform: rotate(-1deg);
+}
+
+#red-halberdier {
+    left: 11em;
+    top: 162em;
+    transform: rotate(-2deg);
+}
+
+#red-heaven {
+    left: -8em;
+    top: 162.5em;
+    transform: rotate(-.5deg);
+}
+
+#red-hover-islands {
+    right: 9.5em;
+    top: 155em;
+    transform: rotate(-12deg);
+}
+
+#red-hoversunset {
+    right: 6.5em;
+    top: 176.5em;
+    transform: rotate(3deg);
+}
+
+#red-hoverlands {
+    right: 6.5em;
+    top: 176em;
+    transform: rotate(-1deg);
+}
+
+#back-5 {
+    right: 6.5em;
+    top: 176em;
+    transform: rotate(-3deg);
+}
+
+#red-hover {
+    right: 6.5em;
+    top: 176em;
+    transform: rotate(-5deg);
+}
+
+#book-1 {
+    left: 7em;
+    top: 1em;
+    transform: rotate(-2deg);
+}
+
+#book-2 {
+    left: 10em;
+    top: 37em;
+    transform: rotate(-3deg);
+}
+
+#red-icy {
+    left: 9em;
+    top: 50em;
+    transform: rotate(-4deg);
+}
+
+#back-6 {
+    left: 9em;
+    top: 50em;
+    transform: rotate(-3deg);
+}
+
+#red-inquisitor {
+    left: 13em;
+    top: 77em;
+    transform: rotate(-3deg);
+}
+
+#red-kkk {
+    left: 33em;
+    top: 75.5em;
+    transform: rotate(-5deg);
+}
+
+#red-lowlands {
+    right: -7em;
+    top: 73em;
+    transform: rotate(-8deg);
+}
+
+#back-7 {
+    right: -7em;
+    top: 73.5em;
+    transform: rotate(-9deg);
+}
+
+#red-messiah {
+    right: -10.3em;
+    top: 93em;
+    transform: rotate(-11deg);
+}
+
+#red-monk {
+    right: -10.3em;
+    top: 93em;
+    transform: rotate(-9deg);
+}
+
+#red-nomad {
+    right: -10.3em;
+    top: 93.5em;
+    transform: rotate(78deg);
+}
+
+#red-north {
+    right: 10.5em;
+    top: 95em;
+    transform: rotate(-2deg);
+}
+
+#red-peasant {
+    right: 10.5em;
+    top: 95em;
+    transform: rotate(-4deg);
+}
+
+#red-road {
+    left: 14em;
+    top: 96em;
+    transform: rotate(-2.5deg);
+}
+
+#back-8 {
+    left: 14em;
+    top: 96em;
+    transform: rotate(0deg);
+}
+
+#red-sharpshooter {
+    left: 13em;
+    top: 114em;
+    transform: rotate(2deg);
+}
+
+#red-scepeter {
+    left: 13em;
+    top: 114em;
+    transform: rotate(1deg);
+}
+
+#red-shooter {
+    left: 34em;
+    top: 115em;
+    transform: rotate(3deg);
+}
+
+#red-snowy {
+    left: 34em;
+    top: 117em;
+    transform: rotate(7deg);
+}
+
+#red-spellcaster {
+    left: 33.5em;
+    top: 117.5em;
+    transform: rotate(97deg);
+}
+
+#red-spearman {
+    left: 34em;
+    top: 118em;
+    transform: rotate(8deg);
+}
+
+#red-soul {
+    left: 33em;
+    top: 120em;
+    transform: rotate(10deg);
+}
+
+#red-solar {
+    left: 32em;
+    top: 121em;
+    transform: rotate(10deg);
+}
+
+#red-thief {
+    left: 32em;
+    top: 121em;
+    transform: rotate(12deg);
+}
+
+#back-9 {
+    right: -11em;
+    top: 126em;
+    transform: rotate(13deg);
+}
+
+#red-witchcraft {
+    left: 12em;
+    top: 135.5em;
+    transform: rotate(9deg);
+}
+
+#red-view {
+    right: -10em;
+    top: 127em;
+    transform: rotate(15deg);
+}
+
+#red-village {
+    right: 18em;
+    top: 140em;
+    transform: rotate(17deg);
+}
+
+#back-11 {
+    right: 18em;
+    top: 140em;
+    transform: rotate(14deg);
+}
+
+#back-10 {
+    right: 18em;
+    top: 140em;
+    transform: rotate(18deg);
+}
+
+#red-vision {
+    right: -2.5em;
+    top: 148em;
+    transform: rotate(20deg);
+}
+
+#red-sunset {
+    right: -2em;
+    top: 146em;
+    transform: rotate(22deg);
+}
+
+#red-stoneskin {
+    right: -2.5em;
+    top: 146.5em;
+    transform: rotate(17deg);
+}
+
+#red-spy {
+    right: -3em;
+    top: 147.5em;
+    transform: rotate(18deg);
+}
+
+#red-windy {
+    right: -2.5em;
+    top: 148.5em;
+    transform: rotate(21deg);
+}
+
+#book-3 {
+    transform: rotate(12deg);
+    left: 9em;
+    top: 3em;
+}
+
+#book-4 {
+    transform: rotate(9deg);
+    top: 40em;
+    left: 3em;
+}
+
+#book-5 {
+    top: 80em;
+    left: -1em;
+    transform: rotate(4deg);
+}
+
+#blue-amour {
+    left: 7em;
+    top: 2em;
+    transform: rotate(4deg);
+}
+
+#blue-aquamarine {
+    left: 6em;
+    top: 20em;
+    transform: rotate(2deg);
+}
+
+#blue-bridges {
+    left: 5em;
+    top: 21em;
+    transform: rotate(0deg);
+}
+
+#blue-elemental-water {
+    left: 4.75em;
+    top: 22em;
+    transform: rotate(-1deg);
+}
+
+#blue-corsair {
+    left: -13em;
+    top: .5em;
+    transform: rotate(-86deg);
+}
+
+#blue-dedication {
+    left: -14em;
+    top: 20em;
+    transform: rotate(4deg);
+}
+
+#blue-crystal {
+    left: -14.4em;
+    top: 20em;
+    transform: rotate(2deg);
+}
+
+#back-12 {
+    left: -14.4em;
+    top: 20em;
+    transform: rotate(3deg);
+}
+
+#blue-fighting {
+    left: 6em;
+    top: 43em;
+    transform: rotate(-3deg);
+}
+
+#back-11-1 {
+    left: 6em;
+    top: 43em;
+    transform: rotate(-4deg);
+}
+
+#blue-fountains {
+    left: -15em;
+    top: 40em;
+    transform: rotate(5deg);
+}
+
+#blue-fire {
+    left: -15em;
+    top: 40em;
+    transform: rotate(3deg);
+}
+
+#blue-flaregun {
+    left: -16em;
+    top: 59em;
+    transform: rotate(2deg);
+}
+
+#back-13 {
+    left: 8em;
+    top: 63em;
+    transform: rotate(-98deg);
+}
+
+#blue-gargoyle {
+    left: 9em;
+    top: 48em;
+    transform: rotate(-7deg);
+}
+
+#blue-genuie-young {
+    left: 13em;
+    top: 86em;
+    transform: rotate(-11deg);
+}
+
+#blue-giant {
+    right: 3em;
+    top: 42em;
+    transform: rotate(-12deg);
+}
+
+#blue-golem {
+    right: -2.5em;
+    top: 60em;
+    transform: rotate(-16deg);
+}
+
+#back-14 {
+    right: -3em;
+    top: 59em;
+    transform: rotate(-18deg);
+}
+
+#back-15 {
+    right: -5em;
+    top: 61em;
+    transform: rotate(-21deg);
+}
+
+#blue-gremlin {
+    right: -8em;
+    top: 76em;
+    transform: rotate(-23deg);
+}
+
+#blue-island {
+    left: 20em;
+    top: 109em;
+    transform: rotate(-9deg);
+}
+
+#blue-ironman {
+    left: 21em;
+    top: 110em;
+    transform: rotate(-11deg);
+}
+
+#blue-hunter {
+    left: 20em;
+    top: 111em;
+    transform: rotate(-14deg);
+}
+
+#back-16 {
+    left: 20em;
+    top: 111em;
+    transform: rotate(-14deg);
+}
+
+#back-17 {
+    left: 19em;
+    top: 110em;
+    transform: rotate(-12deg);
+}
+
+#back-18 {
+    left: 17.5em;
+    top: 109em;
+    transform: rotate(-10deg);
+}
+
+#back-19 {
+    left: 18.5em;
+    top: 110em;
+    transform: rotate(-11deg);
+}
+
+#blue-harbor {
+    left: 19em;
+    top: 111em;
+    transform: rotate(-15deg);
+}
+
+#book-6 {
+    left: 10em;
+    top: -8em;
+    transform: rotate(-9deg);
+}
+
+#blue-lighting {
+    left: 43.5em;
+    top: 5em;
+    transform: rotate(-11deg);
+}
+
+#blue-love-citadel {
+    left: 30em;
+    top: 37em;
+    transform: rotate(-11deg);
+}
+
+#blue-mage {
+    left: 10em;
+    top: 40em;
+    transform: rotate(-6deg);
+}
+
+#back-19-1 {
+    left: 9.5em;
+    top: 41.5em;
+    transform: rotate(-5deg);
+}
+
+#back-20 {
+    left: 10em;
+    top: 42em;
+    transform: rotate(-3deg);
+}
+
+#blue-master {
+    right: -10em;
+    top: 31em;
+    transform: rotate(-13deg);
+}
+
+#blue-medicine {
+    left: -10em;
+    top: 40em;
+    transform: rotate(1deg);
+}
+
+#back-22 {
+    left: -10.5em;
+    top: 60em;
+    transform: rotate(7deg);
+}
+
+#blue-mermaid {
+    left: -11em;
+    top: 60.5em;
+    transform: rotate(6deg);
+}
+
+#back-21 {
+    left: -11em;
+    top: 60em;
+    transform: rotate(5.5deg);
+}
+
+#blue-merfolk {
+    left: -11em;
+    top: 60em;
+    transform: rotate(4deg);
+}
+
+#blue-moongolem {
+    left: 11em;
+    top: 61em;
+    transform: rotate(-2deg);
+}
+
+#blue-moonlit-field {
+    left: 11em;
+    top: 61em;
+    transform: rotate(-3deg);
+}
+
+#blue-naga {
+    left: 15em;
+    top: 75em;
+    transform: rotate(-29deg);
+}
+
+#blue-obsidian {
+    right: 10em;
+    top: 65em;
+    transform: rotate(-48deg);
+}
+
+#back-22-1 {
+    right: 20em;
+    top: 100em;
+    transform: rotate(-61deg);
+}
+
+#blue-ocean {
+    left: -5em;
+    top: 95em;
+    transform: rotate(-75deg);
+}
+
+#back-24 {
+    left: -15em;
+    top: 95em;
+    transform: rotate(33deg);
+}
+
+#blue-pinknights {
+    left: 25em;
+    top: 97em;
+    transform: rotate(-34deg);
+}
+
+#blue-poisoning {
+    left: 12.5em;
+    top: 120em;
+    transform: rotate(-190deg);
+}
+
+#blue-poseidon {
+    left: -15em;
+    top: 133em;
+    transform: rotate(-115deg);
+}
+
+#blue-queen {
+    right: -9em;
+    top: 134.5em;
+    transform: rotate(67deg);
+}
+
+#book-7 {
+    bottom: 3em;
+    left: 2em;
+    transform: rotate(-10deg);
+}
+
+#list {
+    right: -40em;
+    bottom: 12.5em;
+    transform: rotate(-13deg);
+}
+
+#blue-seren {
+    left: 17em;
+    top: 12em;
+    transform: rotate(31deg);
+}
+
+#back-23 {
+    right: 10em;
+    top: 1em;
+    transform: rotate(-45deg);
+}
+
+#blue-shallow-waters {
+    left: -3em;
+    top: -10em;
+    transform: rotate(-103deg);
+}
+
+#blue-shore {
+    left: -9em;
+    top: 20em;
+    transform: rotate(-21deg);
+}
+
+#blue-silverwater {
+    right: 4em;
+    top: 35em;
+    transform: rotate(-21deg);
+}
+
+#blue-slaveoflove {
+    left: 10em;
+    top: 51em;
+    transform: rotate(15deg);
+}
+
+#back-24-1 {
+    right: -10em;
+    top: 54em;
+    transform: rotate(50deg);
+}
+
+#back-25 {
+    left: 15em;
+    top: 46em;
+    transform: rotate(10deg);
+}
+
+#blue-storm {
+    right: 15em;
+    top: 70em;
+    transform: rotate(-20deg);
+}
+
+#blue-swamp {
+    left: 0em;
+    top: 80em;
+    transform: rotate(5deg);
+}
+
+#back-26 {
+    left: 20em;
+    top: 100em;
+    transform: rotate(-6deg);
+}
+
+#blue-titan {
+    right: -10em;
+    top: 101em;
+    transform: rotate(18deg);
+}
+
+#blue-upper-mage {
+    right: 3em;
+    top: 121em;
+    transform: rotate(-49deg);
+}
+
+#blue-valkyrie {
+    right: -21em;
+    top: 130em;
+    transform: rotate(-25deg);
+}
+
+#blue-victim {
+    left: 15em;
+    top: 136em;
+    transform: rotate(20deg);
+}
+
+#back-28 {
+    right: 15em;
+    top: 157em;
+    transform: rotate(-97deg);
+}
+
+#back-29 {
+    left: 34em;
+    top: 159em;
+    transform: rotate(44deg);
+}
+
+#blue-wall {
+    right: -10em;
+    top: 163em;
+    transform: rotate(10deg);
+}
+
+#blue-young-valkyrie {
+    right: 5em;
+    top: 185em;
+    transform: rotate(35deg);
+}
+
+#box-blue-front {
+    bottom: 20em;
+    left: 10em;
+    transform: rotate(15deg);
+}
+
+#box-blue-back {
+    bottom: 12em;
+    right: 13em;
+    transform: rotate(25deg);
+}

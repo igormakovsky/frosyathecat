@@ -1,0 +1,725 @@
+// rotate mixin
+@mixin rotate($rotate) {
+    transform: rotate($rotate + deg);
+}
+
+// transform rotates cw
+.rot5 {
+    @include rotate(5);
+}
+
+.rot10 {
+    @include rotate(10);
+}
+
+.rot15 {
+    @include rotate(15);
+}
+
+.rot20 {
+    @include rotate(20);
+}
+
+.rot25 {
+    @include rotate(25);
+}
+
+.rot30 {
+    @include rotate(30);
+}
+
+.rot35 {
+    @include rotate(35);
+}
+
+.rot40 {
+    @include rotate(40);
+}
+
+.rot45 {
+    @include rotate(45);
+}
+
+.rot50 {
+    @include rotate(50);
+}
+
+.rot55 {
+    @include rotate(55);
+}
+
+.rot60 {
+    @include rotate(60);
+}
+
+.rot65 {
+    @include rotate(65);
+}
+
+.rot70 {
+    @include rotate(70);
+}
+
+.rot75 {
+    @include rotate(75);
+}
+
+.rot80 {
+    @include rotate(80);
+}
+
+.rot85 {
+    @include rotate(85);
+}
+
+.rot90 {
+    @include rotate(90);
+}
+
+.rot95 {
+    @include rotate(95);
+}
+
+.rot100 {
+    @include rotate(100);
+}
+
+.rot105 {
+    @include rotate(105);
+}
+
+.rot110 {
+    @include rotate(110);
+}
+
+.rot115 {
+    @include rotate(115);
+}
+
+.rot120 {
+    @include rotate(120);
+}
+
+.rot125 {
+    @include rotate(125);
+}
+
+.rot130 {
+    @include rotate(130);
+}
+
+.rot135 {
+    @include rotate(135);
+}
+
+.rot140 {
+    @include rotate(140);
+}
+
+.rot145 {
+    @include rotate(145);
+}
+
+.rot150 {
+    @include rotate(150);
+}
+
+.rot155 {
+    @include rotate(155);
+}
+
+.rot160 {
+    @include rotate(160);
+}
+
+.rot165 {
+    @include rotate(165);
+}
+
+.rot170 {
+    @include rotate(170);
+}
+
+.rot175 {
+    @include rotate(175);
+}
+
+.rot180 {
+    @include rotate(180);
+}
+
+.rot185 {
+    @include rotate(185);
+}
+
+.rot190 {
+    @include rotate(190);
+}
+
+.rot195 {
+    @include rotate(195);
+}
+
+.rot200 {
+    @include rotate(200);
+}
+
+.rot205 {
+    @include rotate(205);
+}
+
+.rot210 {
+    @include rotate(210);
+}
+
+.rot215 {
+    @include rotate(215);
+}
+
+.rot220 {
+    @include rotate(220);
+}
+
+.rot225 {
+    @include rotate(225);
+}
+
+.rot230 {
+    @include rotate(230);
+}
+
+.rot235 {
+    @include rotate(235);
+}
+
+.rot240 {
+    @include rotate(240);
+}
+
+.rot245 {
+    @include rotate(245);
+}
+
+.rot250 {
+    @include rotate(250);
+}
+
+.rot255 {
+    @include rotate(255);
+}
+
+.rot260 {
+    @include rotate(260);
+}
+
+.rot265 {
+    @include rotate(265);
+}
+
+.rot270 {
+    @include rotate(270);
+}
+
+.rot275 {
+    @include rotate(275);
+}
+
+.rot280 {
+    @include rotate(280);
+}
+
+.rot285 {
+    @include rotate(285);
+}
+
+.rot290 {
+    @include rotate(290);
+}
+
+.rot295 {
+    @include rotate(295);
+}
+
+.rot300 {
+    @include rotate(300);
+}
+
+.rot305 {
+    @include rotate(305);
+}
+
+.rot310 {
+    @include rotate(310);
+}
+
+.rot315 {
+    @include rotate(315);
+}
+
+.rot320 {
+    @include rotate(320);
+}
+
+.rot325 {
+    @include rotate(325);
+}
+
+.rot330 {
+    @include rotate(330);
+}
+
+.rot335 {
+    @include rotate(335);
+}
+
+.rot340 {
+    @include rotate(340);
+}
+
+.rot345 {
+    @include rotate(345);
+}
+
+.rot350 {
+    @include rotate(350);
+}
+
+.rot355 {
+    @include rotate(355);
+}
+
+.rot360 {
+    @include rotate(360);
+}
+
+// transform rotates ccw
+.rot-5 {
+    @include rotate(-5);
+}
+
+.rot-10 {
+    @include rotate(-10);
+}
+
+.rot-15 {
+    @include rotate(-15);
+}
+
+.rot-20 {
+    @include rotate(-20);
+}
+
+.rot-25 {
+    @include rotate(-25);
+}
+
+.rot-30 {
+    @include rotate(-30);
+}
+
+.rot-35 {
+    @include rotate(-35);
+}
+
+.rot-40 {
+    @include rotate(-40);
+}
+
+.rot-45 {
+    @include rotate(-45);
+}
+
+.rot-50 {
+    @include rotate(-50);
+}
+
+.rot-55 {
+    @include rotate(-55);
+}
+
+.rot-60 {
+    @include rotate(-60);
+}
+
+.rot-65 {
+    @include rotate(-65);
+}
+
+.rot-70 {
+    @include rotate(-70);
+}
+
+.rot-75 {
+    @include rotate(-75);
+}
+
+.rot-80 {
+    @include rotate(-80);
+}
+
+.rot-85 {
+    @include rotate(-85);
+}
+
+.rot-90 {
+    @include rotate(-90);
+}
+
+.rot-95 {
+    @include rotate(-95);
+}
+
+.rot-100 {
+    @include rotate(-100);
+}
+
+.rot-105 {
+    @include rotate(-105);
+}
+
+.rot-110 {
+    @include rotate(-110);
+}
+
+.rot-115 {
+    @include rotate(-115);
+}
+
+.rot-120 {
+    @include rotate(-120);
+}
+
+.rot-125 {
+    @include rotate(-125);
+}
+
+.rot-130 {
+    @include rotate(-130);
+}
+
+.rot-135 {
+    @include rotate(-135);
+}
+
+.rot-140 {
+    @include rotate(-140);
+}
+
+.rot-145 {
+    @include rotate(-145);
+}
+
+.rot-150 {
+    @include rotate(-150);
+}
+
+.rot-155 {
+    @include rotate(-155);
+}
+
+.rot-160 {
+    @include rotate(-160);
+}
+
+.rot-165 {
+    @include rotate(-165);
+}
+
+.rot-170 {
+    @include rotate(-170);
+}
+
+.rot-175 {
+    @include rotate(-175);
+}
+
+.rot-180 {
+    @include rotate(-180);
+}
+
+.rot-185 {
+    @include rotate(-185);
+}
+
+.rot-190 {
+    @include rotate(-190);
+}
+
+.rot-195 {
+    @include rotate(-195);
+}
+
+.rot-200 {
+    @include rotate(-200);
+}
+
+.rot-205 {
+    @include rotate(-205);
+}
+
+.rot-210 {
+    @include rotate(-210);
+}
+
+.rot-215 {
+    @include rotate(-215);
+}
+
+.rot-220 {
+    @include rotate(-220);
+}
+
+.rot-225 {
+    @include rotate(-225);
+}
+
+.rot-230 {
+    @include rotate(-230);
+}
+
+.rot-235 {
+    @include rotate(-235);
+}
+
+.rot-240 {
+    @include rotate(-240);
+}
+
+.rot-245 {
+    @include rotate(-245);
+}
+
+.rot-250 {
+    @include rotate(-250);
+}
+
+.rot-255 {
+    @include rotate(-255);
+}
+
+.rot-260 {
+    @include rotate(-260);
+}
+
+.rot-265 {
+    @include rotate(-265);
+}
+
+.rot-270 {
+    @include rotate(-270);
+}
+
+.rot-275 {
+    @include rotate(-275);
+}
+
+.rot-280 {
+    @include rotate(-280);
+}
+
+.rot-285 {
+    @include rotate(-285);
+}
+
+.rot-290 {
+    @include rotate(-290);
+}
+
+.rot-295 {
+    @include rotate(-295);
+}
+
+.rot-300 {
+    @include rotate(-300);
+}
+
+.rot-305 {
+    @include rotate(-305);
+}
+
+.rot-310 {
+    @include rotate(-310);
+}
+
+.rot-315 {
+    @include rotate(-315);
+}
+
+.rot-320 {
+    @include rotate(-320);
+}
+
+.rot-325 {
+    @include rotate(-325);
+}
+
+.rot-330 {
+    @include rotate(-330);
+}
+
+.rot-335 {
+    @include rotate(-335);
+}
+
+.rot-340 {
+    @include rotate(-340);
+}
+
+.rot-345 {
+    @include rotate(-345);
+}
+
+.rot-350 {
+    @include rotate(-350);
+}
+
+.rot-355 {
+    @include rotate(-355);
+}
+
+.rot-360 {
+    @include rotate(-360);
+}
+
+// scale mixin
+@mixin scale($scale) {
+    transform: scale($scale);
+}
+
+/// scales
+.scale-09 {
+    @include scale(.9);
+}
+
+.scale-08 {
+    @include scale(.8);
+}
+
+.scale-07 {
+    @include scale(.7);
+}
+
+.scale-06 {
+    @include scale(.6);
+}
+
+.scale-05 {
+    @include scale(.5);
+}
+
+.scale-04 {
+    @include scale(.4);
+}
+
+.scale-03 {
+    @include scale(.3);
+}
+
+.scale-02 {
+    @include scale(.2);
+}
+
+.scale-01 {
+    @include scale(.1);
+}
+
+///
+.fullwidth {
+    width: 100vw;
+}
+
+.width1000 {
+    width: 1000px;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.mir {
+    transform: scaleX(-1);
+    filter: FlipH;
+}
+
+.trans {
+    transition: all .4s;
+}
+
+.transparent {
+    pointer-events: none;
+}
+
+.margin-auto {
+    margin: 0 auto;
+}
+
+.will-change {
+    will-change: transform;
+    transform: translateZ(0);
+}
+
+.clearfix {
+    display: block;
+    zoom: 1;
+    &:after {
+        content: " ";
+        display: block;
+        font-size: 0;
+        height: 0;
+        clear: both;
+        visibility: hidden;
+    }
+}
+
+///
+.absolute {
+    position: absolute;
+}
+
+.relate {
+    position: relative;
+}
+
+.center {
+    text-align: center;
+}
+
+///
+.flex-centered {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-flow: row;
+}
+
+.hidden {
+    display: none;
+    visibility: hidden;
+    //clip-path: inset(100%);
+    //clip-path: rect(0, 0, 0, 0); not working?
+}
+
+.no-mobile {
+    @media screen and (max-width: 1000px) {
+        opacity: 0;
+        display: none;
+        visibility: hidden;
+        //clip-path: inset(100%);
+        //clip-path: rect(0, 0, 0, 0); not working?
+    }
+}
+
+///
+
+.height-48 {
+    height: 48px;
+    z-index: 1;
+}
+
+///
+.notavaible {
+    opacity: .5;
+}
+
+figure {
+    @extend .center;
+}

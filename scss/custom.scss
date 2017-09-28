@@ -1,0 +1,16 @@
+@import "../scss/retinajs";
+$bg:#393836;
+$color:#f2f1ef;
+body {
+    background-color: $bg;
+}
+
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+ul {
+    color: $color;
+}

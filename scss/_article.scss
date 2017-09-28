@@ -1,0 +1,93 @@
+article {
+    overflow: hidden;
+    position: relative;
+    min-height: inherit;
+    section {
+        margin: 0 auto;
+        position: relative;
+        width: 1000px;
+        &.text {
+            width: 86.5%;
+            margin: 0 auto;
+            max-width: 1300px;
+            p {
+                font-size: 2.5rem;
+                margin-bottom: 1.5rem;
+                &.small {
+                    @extend .small;
+                }
+                &.intended {
+                    margin-left: 5rem;
+                }
+            }
+            &.double {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                * {
+                    flex: 2 2 2;
+                }
+            }
+        }
+        &.picture {
+            width: 86.5%;
+            margin: 0 auto;
+            max-width: 1150px;
+            .center {
+                @extend .center;
+                img {
+                    width: 100%;
+                }
+            }
+            &.double {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                * {
+                    flex: 2 2 2;
+                }
+                .center {
+                    @extend .center;
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        &.fullwidth {
+            width: 100%;
+            max-width: 1500px;
+            &.flex-row {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+        }
+        &.flex {
+            width: 90%;
+            max-width: 1550px;
+            margin-top: 2.5rem;
+            &.left {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                div {
+                    padding: 1.5rem .4rem;
+                    @media (min-width: 1350px) {
+                        padding: 1.5rem 0;
+                    }
+                    &.align-bottom {
+                        align-self: flex-end;
+                    }
+                    &.resp {
+                        width:30%;
+                        padding: 1.5rem .5rem;
+                        img {
+                            width:100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

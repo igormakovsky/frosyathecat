@@ -1,0 +1,50 @@
+// colors
+$black: #393836;
+$white: rgb(249, 249, 249);
+// fonts
+$font-regular: 'Pragmata Pro Regular',
+helvetica neue,
+arial,
+sans-serif;
+$font-italic: 'Pragmata Pro Italic',
+helvetica neue,
+arial,
+sans-serif;
+$font-bold: 'Pragmata Pro Bold',
+helvetica neue,
+arial,
+sans-serif;
+//
+@import "/bower_components/normalize-css/normalize.css";
+@import "fonts";
+@import "shorthands";
+@import "animations";
+@import "interactive";
+@import "retinajs";
+//
+@import "menu";
+@import "index";
+@import "article";
+//
+html {
+    background-color: white;
+}
+
+//
+body {
+    font-family: $font-regular;
+    background-color: $black;
+    min-width: 1000px;
+    min-height: 100vh;
+    font-size: 1em;
+    width: 100%;
+    margin: 0;
+    height: 100%;
+    overflow-x: hidden;
+    color: $white;
+    -webkit-font-smoothing: antialiased;
+    //position:relative;
+    //backface-visibility: hidden;
+    //-webkit-text-size-adjust: 100%;
+}
+///

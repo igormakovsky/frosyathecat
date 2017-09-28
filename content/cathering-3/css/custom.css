@@ -1,0 +1,445 @@
+/* body {
+    background-color: $bg;
+} */
+a,
+p,
+h1,
+ul {
+  color: #f0eae1;
+}
+
+#box-red {
+  top: -5em;
+  left: 5em;
+  -webkit-transform: rotate(15deg);
+          transform: rotate(15deg);
+}
+
+#red-angel {
+  left: 10em;
+  top: 1em;
+  -webkit-transform: rotate(16deg);
+          transform: rotate(16deg);
+}
+
+#red-crusader {
+  left: 11em;
+  top: 1em;
+  -webkit-transform: rotate(18deg);
+          transform: rotate(18deg);
+}
+
+#red-enchantment {
+  left: 11.5em;
+  top: 2em;
+  -webkit-transform: rotate(16deg);
+          transform: rotate(16deg);
+}
+
+#red-fanatic {
+  left: 10em;
+  top: .5em;
+  -webkit-transform: rotate(14deg);
+          transform: rotate(14deg);
+}
+
+#red-halberdier {
+  left: -10em;
+  top: 90em;
+  -webkit-transform: rotate(14deg);
+          transform: rotate(14deg);
+}
+
+#red-knife {
+  left: -25em;
+  top: 65em;
+  -webkit-transform: rotate(80deg);
+          transform: rotate(80deg);
+}
+
+#red-knight {
+  left: -25em;
+  top: 65.5em;
+  -webkit-transform: rotate(-103deg);
+          transform: rotate(-103deg);
+}
+
+#red-archangel {
+  right: 13em;
+  top: 130em;
+  -webkit-transform: rotate(7deg);
+          transform: rotate(7deg);
+}
+
+#red-back-1 {
+  left: 11em;
+  top: 1em;
+  -webkit-transform: rotate(17deg);
+          transform: rotate(17deg);
+}
+
+#red-back-2 {
+  right: 1em;
+  top: 27em;
+  -webkit-transform: rotate(210deg);
+          transform: rotate(210deg);
+}
+
+#red-archer {
+  right: -7em;
+  top: 2em;
+  -webkit-transform: rotate(65deg);
+          transform: rotate(65deg);
+}
+
+#red-blessed-planes {
+  top: 35em;
+  left: -5em;
+  -webkit-transform: rotate(-30deg);
+          transform: rotate(-30deg);
+}
+
+#red-back-3 {
+  top: 60em;
+  left: 9em;
+  -webkit-transform: rotate(-5deg);
+          transform: rotate(-5deg);
+}
+
+#red-cross {
+  left: 27em;
+  top: 55em;
+  -webkit-transform: rotate(9deg);
+          transform: rotate(9deg);
+}
+
+#red-monk {
+  top: 55em;
+  right: 19.5em;
+  -webkit-transform: rotate(15deg);
+          transform: rotate(15deg);
+}
+
+#red-ninja {
+  top: 64em;
+  right: 4em;
+  -webkit-transform: rotate(-32deg);
+          transform: rotate(-32deg);
+}
+
+#red-planes-1 {
+  top: 111em;
+  left: 15em;
+  -webkit-transform: rotate(-15deg);
+          transform: rotate(-15deg);
+}
+
+#red-peasant {
+  top: 82em;
+  right: 20em;
+  -webkit-transform: rotate(30deg);
+          transform: rotate(30deg);
+}
+
+#red-back-4 {
+  right: 14em;
+  top: 131em;
+  -webkit-transform: rotate(-8deg);
+          transform: rotate(-8deg);
+}
+
+#red-planes-2 {
+  right: -5em;
+  top: 121em;
+  -webkit-transform: rotate(6deg);
+          transform: rotate(6deg);
+}
+
+#red-back-5 {
+  right: -20em;
+  top: 143em;
+  -webkit-transform: rotate(25deg);
+          transform: rotate(25deg);
+}
+
+#red-planes-3 {
+  left: 38em;
+  top: 160em;
+  -webkit-transform: rotate(23deg);
+          transform: rotate(23deg);
+}
+
+#red-planes-4 {
+  left: 8em;
+  top: 168em;
+  -webkit-transform: rotate(13deg);
+          transform: rotate(13deg);
+}
+
+#red-planes-5 {
+  left: 22em;
+  top: 180em;
+  -webkit-transform: rotate(35deg);
+          transform: rotate(35deg);
+}
+
+#red-planes-6 {
+  left: -10em;
+  top: 193em;
+  -webkit-transform: rotate(60deg);
+          transform: rotate(60deg);
+}
+
+#red-rats {
+  left: 22em;
+  top: 179em;
+  -webkit-transform: rotate(36deg);
+          transform: rotate(36deg);
+}
+
+#red-resurrection {
+  top: 190em;
+  right: 9em;
+  -webkit-transform: rotate(-30deg);
+          transform: rotate(-30deg);
+}
+
+#red-sailor {
+  top: 190em;
+  right: 10em;
+  -webkit-transform: rotate(-28deg);
+          transform: rotate(-28deg);
+}
+
+#red-back-7 {
+  top: 212em;
+  left: 3em;
+  -webkit-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+}
+
+#red-shooter {
+  top: 210em;
+  left: 3em;
+  -webkit-transform: rotate(-8deg);
+          transform: rotate(-8deg);
+}
+
+#red-spearman {
+  top: 160em;
+  left: -30em;
+  -webkit-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+}
+
+#red-strength {
+  top: 230em;
+  left: 30em;
+  -webkit-transform: rotate(-13deg);
+          transform: rotate(-13deg);
+}
+
+#red-suicide {
+  top: 230em;
+  left: 30em;
+  -webkit-transform: rotate(-17deg);
+          transform: rotate(-17deg);
+}
+
+#red-wall {
+  top: 230em;
+  left: 30em;
+  -webkit-transform: rotate(-19deg);
+          transform: rotate(-19deg);
+}
+
+#red-back-6 {
+  top: 230em;
+  left: 30em;
+  -webkit-transform: rotate(-21deg);
+          transform: rotate(-21deg);
+}
+
+#red-back-8 {
+  top: 220em;
+  right: -10em;
+  -webkit-transform: rotate(-60deg);
+          transform: rotate(-60deg);
+}
+
+#green-back-1 {
+  top: 244em;
+  right: -10em;
+  -webkit-transform: rotate(20deg);
+          transform: rotate(20deg);
+}
+
+#green-centaur-mage {
+  top: 243em;
+  left: 14em;
+  -webkit-transform: rotate(3deg);
+          transform: rotate(3deg);
+}
+
+#green-catapult {
+  top: 254em;
+  right: 10em;
+  -webkit-transform: rotate(10deg);
+          transform: rotate(10deg);
+}
+
+#green-back-2 {
+  top: 254em;
+  right: 10em;
+  -webkit-transform: rotate(10deg);
+          transform: rotate(10deg);
+}
+
+#green-back-3 {
+  left: -11em;
+  top: 279em;
+  -webkit-transform: rotate(-35deg);
+          transform: rotate(-35deg);
+}
+
+#green-centaur {
+  left: -10em;
+  top: 280em;
+  -webkit-transform: rotate(-36deg);
+          transform: rotate(-36deg);
+}
+
+#green-dendroid-soldier {
+  left: 23em;
+  top: 293em;
+  -webkit-transform: rotate(-65deg);
+          transform: rotate(-65deg);
+}
+
+#green-dendroid {
+  left: 5em;
+  top: 310em;
+  -webkit-transform: rotate(10deg);
+          transform: rotate(10deg);
+}
+
+#green-dragon {
+  left: 22em;
+  top: 293em;
+  -webkit-transform: rotate(-67deg);
+          transform: rotate(-67deg);
+}
+
+#green-back-5 {
+  left: 22em;
+  top: 293em;
+  -webkit-transform: rotate(-66deg);
+          transform: rotate(-66deg);
+}
+
+#green-elf {
+  left: 30em;
+  top: 309em;
+  -webkit-transform: rotate(75deg);
+          transform: rotate(75deg);
+}
+
+#green-fear {
+  left: 30em;
+  top: 327em;
+  -webkit-transform: rotate(25deg);
+          transform: rotate(25deg);
+}
+
+#green-frog {
+  right: -10em;
+  top: 320em;
+  -webkit-transform: rotate(-25deg);
+          transform: rotate(-25deg);
+}
+
+#green-hobbit {
+  right: -10em;
+  top: 320em;
+  -webkit-transform: rotate(-24deg);
+          transform: rotate(-24deg);
+}
+
+#green-lightingstrike {
+  right: -30em;
+  top: 265em;
+  -webkit-transform: rotate(-124deg);
+          transform: rotate(-124deg);
+}
+
+#green-mountains {
+  left: 5em;
+  top: 342em;
+  -webkit-transform: rotate(13deg);
+          transform: rotate(13deg);
+}
+
+#green-royal-elf {
+  left: -15em;
+  top: 351em;
+  -webkit-transform: rotate(20deg);
+          transform: rotate(20deg);
+}
+
+#green-back-4 {
+  left: -15em;
+  top: 351em;
+  -webkit-transform: rotate(21deg);
+          transform: rotate(21deg);
+}
+
+#green-back-6 {
+  left: -15em;
+  top: 351em;
+  -webkit-transform: rotate(22deg);
+          transform: rotate(22deg);
+}
+
+#green-unicorn {
+  left: 30em;
+  top: 362em;
+  -webkit-transform: rotate(30deg);
+          transform: rotate(30deg);
+}
+
+#green-back-7 {
+  right: 10em;
+  top: 392em;
+  -webkit-transform: rotate(-27deg);
+          transform: rotate(-27deg);
+}
+
+#green-back-8 {
+  right: -3em;
+  top: 382em;
+  -webkit-transform: rotate(-34deg);
+          transform: rotate(-34deg);
+}
+
+#green-woodelf {
+  right: 10em;
+  top: 373em;
+  -webkit-transform: rotate(55deg);
+          transform: rotate(55deg);
+}
+
+#green-wooden-skin {
+  left: 2em;
+  top: 412em;
+  -webkit-transform: rotate(155deg);
+          transform: rotate(155deg);
+}
+
+#box-green {
+  -webkit-transform: rotate(30deg);
+          transform: rotate(30deg);
+  bottom: -10em;
+  left: 1em;
+}
+
+/*# sourceMappingURL=custom.css.map */
