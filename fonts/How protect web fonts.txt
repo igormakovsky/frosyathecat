@@ -1,0 +1,23 @@
+
+HOW TO PROTECTING THE WEBFONTS FILES
+
+To make impossible to link or to download the webfont files of your web site, please follow these instructions
+
+After uploaded the webfont files onto to your site www.example.com into a subdirectory called /fonts/ find or make a new file named .htaccess inside this directory and paste these lines into it:
+
+RewriteEngine On
+RewriteCond %{HTTP:Origin}  !^$|http(s)?://(www\.)?example\.com$ [NC]
+RewriteRule \.(woff|eot)$ - [NC,L]
+RewriteCond %{HTTP_REFERER} !.
+RewriteRule \.(woff|eot)$ - [F,NC,L]
+Options -Indexes
+
+Replace example.com by your own host name. The dot must be preceded by a backslash. The regular expression (www\.)? means that both URLs with and without the ‘www’ prefix are valid for your site, and (s)? means that your site may be accessed via HTTPS or plain HTTP.
+
+Requests for all files ending in .woff or .eot with an origin HTTP header (i. e. request coming from a site other than your own) or an empty referrer will now receive an HTTP error 403 (‘forbidden’). The line Options -Indexes disables the file listing for the fonts directory.
+
+If you get an HTTP error 500 (‘internal server error’) after editing the .htaccess file or if the file has no effect, your server probably does not allow changing configuration settings this way. In case you can’t or don’t want to use an .htaccess file, you can put these lines directly into your Apache configuration. Please refer to the server documentation if you’re not sure where to put them exactly.
+
+If you are using Internet Information Server, you can convert the above configuration from Apache-style to IIS rewrite rules. See Importing Apache mod_rewrite Rules (http://learn.iis.net/page.aspx/470/import-apache-modrewrite-rules) for details.
+
+There are circumstances in which referrer information is not sent when it should be, e. g. if a website visitor uses certain ad-blocking plug-ins. In this rare case the above configuration will cause fallback fonts to be displayed instead of your specified webfonts.

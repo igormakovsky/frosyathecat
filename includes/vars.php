@@ -17,7 +17,7 @@ $siteroot = $protocol.$domain; //http://igorekmakovsky.ru
 
 $parent = 'content';
 
-if ($id != 'igorekmakovsky'){
+if ($id != 'frosyathecat'){
 $mainfolder = '/'.$parent.'/'.$id;
 $headimage = $siteroot.'/'.$parent.'/'.$id.'/img/index.jpg'; //path to leading image
 $canonical = $siteroot.'/'.$parent.'/'.$id.'/'; //path to canonical page
@@ -38,13 +38,13 @@ if (ru()) {
     $sign = date("Y").' — Игорёк Маковский';
     $title = $title_ru;
     $description = $description_ru;
-    $keywords = 'игорёк, маковский, игорек, детство, старый гай, '.$keywords_ru;
+    $keywords = 'игорь, маковский, игорек, фрося, кошка, zx, игра, бумага '.$keywords_ru;
     $author = 'Игорёк Маковский';
-    $switch = 'igorekmakovsky.com'.$dev.$deldomain;
+    $switch = 'frosyathecat.com'.$dev.$deldomain;
     $lang = 'ru';
     $tomainpage = '←';
     $settolang = 'in english';
-    $igorekmakovsky = '<a href="mailto:igor@igormakovsky.ru">Игорь Маковский</a></p>
+    $frosyathecat = '<a href="mailto:igor@igormakovsky.ru">Игорь Маковский</a></p>
                     <p class="backarrow">
                         <span lang="ru">назад к</span>
                         <a href="'.$siteroot.'#'.$id.'">
@@ -56,13 +56,13 @@ else {
     $sign = date("Y").' — Igorek Makovsky';
     $title = $title_en;
     $description = $description_en;
-    $keywords = 'igorek, makovsky, childhood, staryi gay, '.$keywords_en;
+    $keywords = 'igor, makovsky, igorek, frosya, cat, zx, game, paper '.$keywords_en;
     $author = 'Igorek Makovsky';
-    $switch = 'igorekmakovsky.ru'.$dev.$deldomain;
+    $switch = 'frosyathecat.ru'.$dev.$deldomain;
     $tomainpage = '←';
     $lang = 'en-US';
     $settolang = 'по-русски';
-    $igorekmakovsky = '<a href="mailto:igor@igormakovsky.ru">Igor Makovsky</a>
+    $frosyathecat = '<a href="mailto:igor@igormakovsky.ru">Igor Makovsky</a>
     </p>
                     <p class="backarrow">
                         <span lang="en">back to </span>

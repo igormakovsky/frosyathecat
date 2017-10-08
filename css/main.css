@@ -1,49 +1,31 @@
 @charset "UTF-8";
 @import url(/bower_components/normalize-css/normalize.css);
 @font-face {
-  font-family: 'Pragmata Pro Regular';
-  src: url("../fonts/pragmata-pro-mono-regular/pragmatapromono.ttf") format("truetype");
+  font-family: 'essential_pragmatapro';
+  src: url("../fonts/PragmataProMono.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
-@font-face {
-  font-family: 'Pragmata Pro Italic';
-  src: url("../fonts/pragmata-pro-mono-italic/pragmatapromono-italic.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Pragmata Pro Bold';
-  src: url("../fonts/pragmata-pro-mono-bold/pragmatapromono-bold.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
+/* @font-face {
+    font-family: 'essential_pragmatapro';
+    src: url('../fonts/essential_pragmatapro-r_1.1-webfont.eot');
+    src: url('../fonts/essential_pragmatapro-r_1.1-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/essential_pragmatapro-r_1.1-webfont.woff2') format('woff2'),
+         url('../fonts/essential_pragmatapro-r_1.1-webfont.woff') format('woff'),
+         url('../fonts/essential_pragmatapro-r_1.1-webfont.ttf') format('truetype'),
+         url('../fonts/essential_pragmatapro-r_1.1-webfont.svg#essential_pragmataproregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+} */
 .regular {
-  font-family: "Pragmata Pro Regular", helvetica neue, arial, sans-serif;
-}
-
-.bold, h2, strong, .strong {
-  font-family: "Pragmata Pro Bold", helvetica neue, arial, sans-serif;
-}
-
-.italic {
-  font-family: "Pragmata Pro Italic", helvetica neue, arial, sans-serif;
+  font-family: "essential_pragmatapro", helvetica neue, arial, sans-serif;
 }
 
 .white, h1, h2, h3, h4 {
   color: #f9f9f9;
 }
 
-/* @font-face {
-    font-family: 'Graphik Bold';
-    src: url('../fonts/graphik-bold-web/Graphik-Bold-Web.eot');
-    src: url('../fonts/graphik-bold-web/Graphik-Bold-Web.eot#iefix') format('embedded-opentype'), url('../fonts/graphik-bold-web/Graphik-Bold-Web.woff2') format('woff2'), url('../fonts/graphik-bold-web/Graphik-Bold-Web.woff') format('woff'), url('../fonts/graphik-bold-web/Graphik-Bold-Web.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-} */
 p {
   font-size: 1.5rem;
   line-height: 1.5;
@@ -159,6 +141,14 @@ ol li {
 
 .small, article section.text p.small {
   font-size: 1.5rem;
+}
+
+.smallest {
+  font-size: 1rem;
+}
+
+.half-opaque {
+  opacity: .5;
 }
 
 .nobr {
@@ -981,7 +971,7 @@ ol li {
   visibility: hidden;
 }
 
-.absolute, .nav .langchanger {
+.absolute, .nav .langchanger, article header {
   position: absolute;
 }
 
@@ -1027,7 +1017,7 @@ ol li {
   z-index: 1;
 }
 
-.notavaible {
+.notavailable {
   opacity: .5;
 }
 
@@ -2127,7 +2117,7 @@ html {
 }
 
 body {
-  font-family: "Pragmata Pro Regular", helvetica neue, arial, sans-serif;
+  font-family: "essential_pragmatapro", helvetica neue, arial, sans-serif;
   background-color: #393836;
   min-width: 1000px;
   min-height: 100vh;

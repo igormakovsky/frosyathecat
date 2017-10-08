@@ -12546,6 +12546,773 @@
 		"oS": 3,
 		"uL": 1
 		},
+	"\/content\/darktail\/css\/custom.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/content\/darktail\/css\/custom-ck.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/content\/darktail\/css\/custom.css.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/darktail\/css\/custom.css.map",
+		"oF": 0
+		},
+	"\/content\/darktail\/img\/darktail-1.jpg": {
+		"ft": 16384,
+		"iS": 540033,
+		"oA": 1,
+		"oAP": "\/content\/darktail\/img\/darktail-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/content\/darktail\/img\/darktail-10.jpg": {
+		"ft": 16384,
+		"iS": 519475,
+		"oA": 1,
+		"oAP": "\/content\/darktail\/img\/darktail-10.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/content\/darktail\/img\/darktail-10@2x.jpg": {
+		"ft": 16384,
+		"iS": 1766415,
+		"oA": 1,
+		"oAP": "\/content\/darktail\/img\/darktail-10@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/content\/darktail\/img\/darktail-11.jpg": {
+		"ft": 16384,
+		"iS": 488866,
+		"oA": 1,
+		"oAP": "\/content\/darktail\/img\/darktail-11.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/content\/darktail\/img\/darktail-11@2x.jpg": {
+		"ft": 16384,
+		"iS": 1765309,
+		"oA": 1,
+		"oAP": "\/content\/darktail\/img\/darktail-11@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/content\/darktail\/img\/darktail-12.jpg": {
+		"ft": 16384,
+		"iS": 478897,
+		"oA": 1,
+		"oAP": "\/content\/darktail\/img\/darktail-12.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/content\/darktail\/img\/darktail-12@2x.jpg": {
+		"ft": 16384,
+		"iS": 1712147,
+		"oA": 1,
+		"oAP": "\/content\/darktail\/img\/darktail-12@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/content\/darktail\/img\/darktail-13.jpg": {
+		"ft": 16384,
+		"iS": 555153,
+		"oA": 1,
+		"oAP": "\/content\/darktail\/img\/darktail-13.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/content\/darktail\/img\/darktail-13@2x.jpg": {
+		"ft": 16384,
+		"iS": 1961171,
+		"oA": 1,
+		"oAP": "\/content\/darktail\/img\/darktail-13@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/content\/darktail\/img\/darktail-14.jpg": {
+		"ft": 16384,
+		"iS": 509372,
+		"oA": 1,
+		"oAP": "\/content\/darktail\/img\/darktail-14.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/content\/darktail\/img\/darktail-14@2x.jpg": {
+		"ft": 16384,
+		"iS": 1865171,
+		"oA": 1,
+		"oAP": "\/content\/darktail\/img\/darktail-14@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/content\/darktail\/img\/darktail-1@2x.jpg": {
+		"ft": 16384,
+		"iS": 1856531,
+		"oA": 1,
+		"oAP": "\/content\/darktail\/img\/darktail-1@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/content\/darktail\/img\/darktail-2.jpg": {
+		"ft": 16384,
+		"iS": 527365,
+		"oA": 1,
+		"oAP": "\/content\/darktail\/img\/darktail-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/content\/darktail\/img\/darktail-2@2x.jpg": {
+		"ft": 16384,
+		"iS": 1902387,
+		"oA": 1,
+		"oAP": "\/content\/darktail\/img\/darktail-2@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/content\/darktail\/img\/darktail-3.jpg": {
+		"ft": 16384,
+		"iS": 524686,
+		"oA": 1,
+		"oAP": "\/content\/darktail\/img\/darktail-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/content\/darktail\/img\/darktail-3@2x.jpg": {
+		"ft": 16384,
+		"iS": 1846443,
+		"oA": 1,
+		"oAP": "\/content\/darktail\/img\/darktail-3@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/content\/darktail\/img\/darktail-4.jpg": {
+		"ft": 16384,
+		"iS": 509230,
+		"oA": 1,
+		"oAP": "\/content\/darktail\/img\/darktail-4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/content\/darktail\/img\/darktail-4@2x.jpg": {
+		"ft": 16384,
+		"iS": 1860572,
+		"oA": 1,
+		"oAP": "\/content\/darktail\/img\/darktail-4@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/content\/darktail\/img\/darktail-5.jpg": {
+		"ft": 16384,
+		"iS": 529198,
+		"oA": 1,
+		"oAP": "\/content\/darktail\/img\/darktail-5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/content\/darktail\/img\/darktail-5@2x.jpg": {
+		"ft": 16384,
+		"iS": 1944448,
+		"oA": 1,
+		"oAP": "\/content\/darktail\/img\/darktail-5@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/content\/darktail\/img\/darktail-6.jpg": {
+		"ft": 16384,
+		"iS": 508253,
+		"oA": 1,
+		"oAP": "\/content\/darktail\/img\/darktail-6.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/content\/darktail\/img\/darktail-6@2x.jpg": {
+		"ft": 16384,
+		"iS": 1826924,
+		"oA": 1,
+		"oAP": "\/content\/darktail\/img\/darktail-6@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/content\/darktail\/img\/darktail-7.jpg": {
+		"ft": 16384,
+		"iS": 474543,
+		"oA": 1,
+		"oAP": "\/content\/darktail\/img\/darktail-7.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/content\/darktail\/img\/darktail-7@2x.jpg": {
+		"ft": 16384,
+		"iS": 1715164,
+		"oA": 1,
+		"oAP": "\/content\/darktail\/img\/darktail-7@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/content\/darktail\/img\/darktail-8.jpg": {
+		"ft": 16384,
+		"iS": 454841,
+		"oA": 1,
+		"oAP": "\/content\/darktail\/img\/darktail-8.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/content\/darktail\/img\/darktail-8@2x.jpg": {
+		"ft": 16384,
+		"iS": 1694646,
+		"oA": 1,
+		"oAP": "\/content\/darktail\/img\/darktail-8@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/content\/darktail\/img\/darktail-9.jpg": {
+		"ft": 16384,
+		"iS": 542889,
+		"oA": 1,
+		"oAP": "\/content\/darktail\/img\/darktail-9.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/content\/darktail\/img\/darktail-9@2x.jpg": {
+		"ft": 16384,
+		"iS": 1915001,
+		"oA": 1,
+		"oAP": "\/content\/darktail\/img\/darktail-9@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/content\/darktail\/img\/drag-1.png": {
+		"ft": 32768,
+		"iS": 72327,
+		"oA": 1,
+		"oAP": "\/content\/darktail\/img\/drag-1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/content\/darktail\/img\/drag-10.png": {
+		"ft": 32768,
+		"iS": 17386,
+		"oA": 1,
+		"oAP": "\/content\/darktail\/img\/drag-10.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/content\/darktail\/img\/drag-10@2x.png": {
+		"ft": 32768,
+		"iS": 49283,
+		"oA": 1,
+		"oAP": "\/content\/darktail\/img\/drag-10@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/content\/darktail\/img\/drag-11.png": {
+		"ft": 32768,
+		"iS": 18446,
+		"oA": 1,
+		"oAP": "\/content\/darktail\/img\/drag-11.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/content\/darktail\/img\/drag-11@2x.png": {
+		"ft": 32768,
+		"iS": 71808,
+		"oA": 1,
+		"oAP": "\/content\/darktail\/img\/drag-11@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/content\/darktail\/img\/drag-12.png": {
+		"ft": 32768,
+		"iS": 92835,
+		"oA": 1,
+		"oAP": "\/content\/darktail\/img\/drag-12.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/content\/darktail\/img\/drag-12@2x.png": {
+		"ft": 32768,
+		"iS": 351304,
+		"oA": 1,
+		"oAP": "\/content\/darktail\/img\/drag-12@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/content\/darktail\/img\/drag-13.png": {
+		"ft": 32768,
+		"iS": 68472,
+		"oA": 1,
+		"oAP": "\/content\/darktail\/img\/drag-13.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/content\/darktail\/img\/drag-13@2x.png": {
+		"ft": 32768,
+		"iS": 243915,
+		"oA": 1,
+		"oAP": "\/content\/darktail\/img\/drag-13@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/content\/darktail\/img\/drag-14.png": {
+		"ft": 32768,
+		"iS": 40745,
+		"oA": 1,
+		"oAP": "\/content\/darktail\/img\/drag-14.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/content\/darktail\/img\/drag-14@2x.png": {
+		"ft": 32768,
+		"iS": 139657,
+		"oA": 1,
+		"oAP": "\/content\/darktail\/img\/drag-14@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/content\/darktail\/img\/drag-15.png": {
+		"ft": 32768,
+		"iS": 84835,
+		"oA": 1,
+		"oAP": "\/content\/darktail\/img\/drag-15.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/content\/darktail\/img\/drag-15@2x.png": {
+		"ft": 32768,
+		"iS": 284389,
+		"oA": 1,
+		"oAP": "\/content\/darktail\/img\/drag-15@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/content\/darktail\/img\/drag-16.png": {
+		"ft": 32768,
+		"iS": 117152,
+		"oA": 1,
+		"oAP": "\/content\/darktail\/img\/drag-16.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/content\/darktail\/img\/drag-16@2x.png": {
+		"ft": 32768,
+		"iS": 444128,
+		"oA": 1,
+		"oAP": "\/content\/darktail\/img\/drag-16@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/content\/darktail\/img\/drag-17.png": {
+		"ft": 32768,
+		"iS": 80299,
+		"oA": 1,
+		"oAP": "\/content\/darktail\/img\/drag-17.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/content\/darktail\/img\/drag-17@2x.png": {
+		"ft": 32768,
+		"iS": 312078,
+		"oA": 1,
+		"oAP": "\/content\/darktail\/img\/drag-17@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/content\/darktail\/img\/drag-18.png": {
+		"ft": 32768,
+		"iS": 89736,
+		"oA": 1,
+		"oAP": "\/content\/darktail\/img\/drag-18.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/content\/darktail\/img\/drag-18@2x.png": {
+		"ft": 32768,
+		"iS": 305364,
+		"oA": 1,
+		"oAP": "\/content\/darktail\/img\/drag-18@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/content\/darktail\/img\/drag-1@2x.png": {
+		"ft": 32768,
+		"iS": 260324,
+		"oA": 1,
+		"oAP": "\/content\/darktail\/img\/drag-1@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/content\/darktail\/img\/drag-2.png": {
+		"ft": 32768,
+		"iS": 43549,
+		"oA": 1,
+		"oAP": "\/content\/darktail\/img\/drag-2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/content\/darktail\/img\/drag-2@2x.png": {
+		"ft": 32768,
+		"iS": 154146,
+		"oA": 1,
+		"oAP": "\/content\/darktail\/img\/drag-2@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/content\/darktail\/img\/drag-3.png": {
+		"ft": 32768,
+		"iS": 45861,
+		"oA": 1,
+		"oAP": "\/content\/darktail\/img\/drag-3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/content\/darktail\/img\/drag-3@2x.png": {
+		"ft": 32768,
+		"iS": 163068,
+		"oA": 1,
+		"oAP": "\/content\/darktail\/img\/drag-3@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/content\/darktail\/img\/drag-4.png": {
+		"ft": 32768,
+		"iS": 69473,
+		"oA": 1,
+		"oAP": "\/content\/darktail\/img\/drag-4.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/content\/darktail\/img\/drag-4@2x.png": {
+		"ft": 32768,
+		"iS": 254919,
+		"oA": 1,
+		"oAP": "\/content\/darktail\/img\/drag-4@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/content\/darktail\/img\/drag-5.png": {
+		"ft": 32768,
+		"iS": 26545,
+		"oA": 1,
+		"oAP": "\/content\/darktail\/img\/drag-5.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/content\/darktail\/img\/drag-5@2x.png": {
+		"ft": 32768,
+		"iS": 80059,
+		"oA": 1,
+		"oAP": "\/content\/darktail\/img\/drag-5@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/content\/darktail\/img\/drag-6.png": {
+		"ft": 32768,
+		"iS": 13870,
+		"oA": 1,
+		"oAP": "\/content\/darktail\/img\/drag-6.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/content\/darktail\/img\/drag-6@2x.png": {
+		"ft": 32768,
+		"iS": 38072,
+		"oA": 1,
+		"oAP": "\/content\/darktail\/img\/drag-6@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/content\/darktail\/img\/drag-7.png": {
+		"ft": 32768,
+		"iS": 17702,
+		"oA": 1,
+		"oAP": "\/content\/darktail\/img\/drag-7.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/content\/darktail\/img\/drag-7@2x.png": {
+		"ft": 32768,
+		"iS": 57183,
+		"oA": 1,
+		"oAP": "\/content\/darktail\/img\/drag-7@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/content\/darktail\/img\/drag-8.png": {
+		"ft": 32768,
+		"iS": 20661,
+		"oA": 1,
+		"oAP": "\/content\/darktail\/img\/drag-8.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/content\/darktail\/img\/drag-8@2x.png": {
+		"ft": 32768,
+		"iS": 63056,
+		"oA": 1,
+		"oAP": "\/content\/darktail\/img\/drag-8@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/content\/darktail\/img\/drag-9.png": {
+		"ft": 32768,
+		"iS": 41750,
+		"oA": 1,
+		"oAP": "\/content\/darktail\/img\/drag-9.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/content\/darktail\/img\/drag-9@2x.png": {
+		"ft": 32768,
+		"iS": 135330,
+		"oA": 1,
+		"oAP": "\/content\/darktail\/img\/drag-9@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/content\/darktail\/img\/index.jpg": {
+		"ft": 16384,
+		"iS": 323285,
+		"oA": 1,
+		"oAP": "\/content\/darktail\/img\/index.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/content\/darktail\/index.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/darktail\/index.php",
+		"oF": 0
+		},
+	"\/content\/darktail\/js\/custom.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/content\/darktail\/js\/min\/custom-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/content\/darktail\/scss\/.sass-cache\/130400c8d35ae32cf1ccacbf23edc8ecd9e49665\/custom.scssc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/darktail\/scss\/.sass-cache\/130400c8d35ae32cf1ccacbf23edc8ecd9e49665\/custom.scssc",
+		"oF": 0
+		},
+	"\/content\/darktail\/scss\/.sass-cache\/224d4688f623a4773f50d7f1073188d084ec7ab2\/custom.scssc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/darktail\/scss\/.sass-cache\/224d4688f623a4773f50d7f1073188d084ec7ab2\/custom.scssc",
+		"oF": 0
+		},
+	"\/content\/darktail\/scss\/.sass-cache\/364ced1777c7297150a8b8955ddb5d37865901fa\/_retinajs.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/content\/darktail\/scss\/.sass-cache\/364ced1777c7297150a8b8955ddb5d37865901fa\/_retinajs.scssc",
+		"oF": 0
+		},
+	"\/content\/darktail\/scss\/.sass-cache\/5a86c59aaee8d50e09b080f92b5b04dcc049bec0\/custom.scssc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/darktail\/scss\/.sass-cache\/5a86c59aaee8d50e09b080f92b5b04dcc049bec0\/custom.scssc",
+		"oF": 0
+		},
+	"\/content\/darktail\/scss\/.sass-cache\/7ed60d9f0b4a346209016a773bbf7c2ba9f8c1d8\/igorek.scssc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/darktail\/scss\/.sass-cache\/7ed60d9f0b4a346209016a773bbf7c2ba9f8c1d8\/igorek.scssc",
+		"oF": 0
+		},
+	"\/content\/darktail\/scss\/.sass-cache\/8a29a8083712c1ed56cdd9f649f32126b09bc0fc\/_retinajs.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/content\/darktail\/scss\/.sass-cache\/8a29a8083712c1ed56cdd9f649f32126b09bc0fc\/_retinajs.scssc",
+		"oF": 0
+		},
+	"\/content\/darktail\/scss\/custom.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/content\/darktail\/css\/custom.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
 	"\/content\/instinct\/css\/custom.css": {
 		"aP": 0,
 		"bl": 0,
@@ -12897,23 +13664,73 @@
 		"oAP": "\/css\/main.css.map",
 		"oF": 0
 		},
-	"\/fonts\/pragmata-pro-mono-bold\/PragmataProMono-Bold.ttf": {
+	"\/fonts\/.htaccess": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/fonts\/pragmata-pro-mono-bold\/PragmataProMono-Bold.ttf",
+		"oAP": "\/fonts\/.htaccess",
 		"oF": 0
 		},
-	"\/fonts\/pragmata-pro-mono-italic\/PragmataProMono-Italic.ttf": {
+	"\/fonts\/COPYRIGHT+EULA.txt": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/fonts\/pragmata-pro-mono-italic\/PragmataProMono-Italic.ttf",
+		"oAP": "\/fonts\/COPYRIGHT+EULA.txt",
 		"oF": 0
 		},
-	"\/fonts\/pragmata-pro-mono-regular\/PragmataProMono.ttf": {
+	"\/fonts\/essential_pragmatapro-r_1.1-webfont.eot": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/fonts\/pragmata-pro-mono-regular\/PragmataProMono.ttf",
+		"oAP": "\/fonts\/essential_pragmatapro-r_1.1-webfont.eot",
 		"oF": 0
+		},
+	"\/fonts\/essential_pragmatapro-r_1.1-webfont.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/fonts\/essential_pragmatapro-r_1.1-webfont.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/fonts\/essential_pragmatapro-r_1.1-webfont.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/essential_pragmatapro-r_1.1-webfont.ttf",
+		"oF": 0
+		},
+	"\/fonts\/essential_pragmatapro-r_1.1-webfont.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/essential_pragmatapro-r_1.1-webfont.woff",
+		"oF": 0
+		},
+	"\/fonts\/essential_pragmatapro-r_1.1-webfont.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/essential_pragmatapro-r_1.1-webfont.woff2",
+		"oF": 0
+		},
+	"\/fonts\/How protect web fonts.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/How protect web fonts.txt",
+		"oF": 0
+		},
+	"\/fonts\/PragmataProMono.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/PragmataProMono.ttf",
+		"oF": 0
+		},
+	"\/fonts\/stylesheet.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/fonts\/stylesheet-ck.css",
+		"oF": 0,
+		"oS": 0
 		},
 	"\/googlec25b9c91c1405968.html": {
 		"ft": 8192,
@@ -13019,12 +13836,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/includes\/yandex.php",
-		"oF": 0
-		},
-	"\/index-leg.php": {
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/index-leg.php",
 		"oF": 0
 		},
 	"\/index.php": {
@@ -13433,16 +14244,16 @@
 		"oS": 1,
 		"uL": 1
 		},
-	"\/yandex_53f9f86dc901a03c.html": {
+	"\/yandex_0a201296eae33423.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/yandex_53f9f86dc901a03c.html",
+		"oAP": "\/yandex_0a201296eae33423.html",
 		"oF": 0
 		},
-	"\/yandex_62488371e266bb5d.html": {
+	"\/yandex_e7397dca75c0fa8d.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/yandex_62488371e266bb5d.html",
+		"oAP": "\/yandex_e7397dca75c0fa8d.html",
 		"oF": 0
 		}
 	},

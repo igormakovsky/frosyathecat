@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'essential_pragmatapro';
+    src: url('essential_pragmatapro-r_1.1-webfont.eot');
+    src: url('essential_pragmatapro-r_1.1-webfont.eot?#iefix') format('embedded-opentype'),
+         url('essential_pragmatapro-r_1.1-webfont.woff2') format('woff2'),
+         url('essential_pragmatapro-r_1.1-webfont.woff') format('woff'),
+         url('essential_pragmatapro-r_1.1-webfont.ttf') format('truetype'),
+         url('essential_pragmatapro-r_1.1-webfont.svg#essential_pragmataproregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

@@ -90,4 +90,7 @@ article {
             }
         }
     }
+    header {
+        @extend .absolute;
+    }
 }

@@ -10,7 +10,7 @@ function ru() {
     $dev = '.dev'; //.dev
     $host = parseUrl();
 	$host = $host['host'];
-    $firstDomain = 'igorekmakovsky.ru'.$dev;
+    $firstDomain = 'frosyathecat.ru'.$dev;
     $lang = ($host == $firstDomain)?true:false;
     return $lang;
 }

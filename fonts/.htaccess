@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteCond %{HTTP:Origin}  !^$|http(s)?://(www\.)?frosyathecat\.com$ [NC]
+RewriteRule \.(woff|eot)$ - [NC,L]
+RewriteCond %{HTTP_REFERER} !.
+RewriteRule \.(woff|eot)$ - [F,NC,L]
+Options -Indexes
