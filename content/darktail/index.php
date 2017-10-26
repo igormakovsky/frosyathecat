@@ -212,7 +212,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
             <span class="name">Дарктейл</span>Вы мне что-то сказали?<br>
         </p>
 
-        <p lang="" class="small">
+        <p lang="en" class="small">
             <span class="name">Bob</span>I’d like to know more about the dynamite he was speaking about...<br>
             <span class="name">Darktail</span>I suppose, they’re planning something. Want to blow up something. Let’s go there.<br>
             <span class="name">Bob</span>You mean that door?<br>

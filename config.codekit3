@@ -13716,10 +13716,22 @@
 		"oAP": "\/fonts\/How protect web fonts.txt",
 		"oF": 0
 		},
+	"\/fonts\/PragmataPro_Mono_R_liga_0826.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/PragmataPro_Mono_R_liga_0826.woff2",
+		"oF": 0
+		},
 	"\/fonts\/PragmataProMono.ttf": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/PragmataProMono.ttf",
+		"oF": 0
+		},
+	"\/fonts\/PragmataProR_liga_0826.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/PragmataProR_liga_0826.woff2",
 		"oF": 0
 		},
 	"\/fonts\/stylesheet.css": {

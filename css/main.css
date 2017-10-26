@@ -19,7 +19,7 @@
     font-style: normal;
 } */
 .regular {
-  font-family: "essential_pragmatapro", helvetica neue, arial, sans-serif;
+  font-family: "pragmatapro", helvetica neue, arial, sans-serif;
 }
 
 .white, h1, h2, h3, h4 {
@@ -2117,7 +2117,7 @@ html {
 }
 
 body {
-  font-family: "essential_pragmatapro", helvetica neue, arial, sans-serif;
+  font-family: "pragmatapro", helvetica neue, arial, sans-serif;
   background-color: #393836;
   min-width: 1000px;
   min-height: 100vh;
