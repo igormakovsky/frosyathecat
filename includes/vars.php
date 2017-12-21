@@ -40,7 +40,7 @@ if (ru()) {
     $description = $description_ru;
     $keywords = 'игорь, маковский, игорек, фрося, кошка, zx, игра, бумага '.$keywords_ru;
     $author = 'Игорёк Маковский';
-    $switch = 'frosyathecat.com'.$dev.$deldomain;
+    $switch = 'frosyathecat.com'.$test.$deldomain;
     $lang = 'ru';
     $tomainpage = '←';
     $settolang = 'in english';
@@ -58,7 +58,7 @@ else {
     $description = $description_en;
     $keywords = 'igor, makovsky, igorek, frosya, cat, zx, game, paper '.$keywords_en;
     $author = 'Igorek Makovsky';
-    $switch = 'frosyathecat.ru'.$dev.$deldomain;
+    $switch = 'frosyathecat.ru'.$test.$deldomain;
     $tomainpage = '←';
     $lang = 'en-US';
     $settolang = 'по-русски';

@@ -7,10 +7,10 @@ function parseUrl ()
 
 function ru() {
     
-    $dev = '.dev'; //.dev
+    $test = '.test'; //.test
     $host = parseUrl();
 	$host = $host['host'];
-    $firstDomain = 'frosyathecat.ru'.$dev;
+    $firstDomain = 'frosyathecat.ru'.$test;
     $lang = ($host == $firstDomain)?true:false;
     return $lang;
 }

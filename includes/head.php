@@ -1,6 +1,6 @@
 <?
 $docroot = $_SERVER['DOCUMENT_ROOT'].'/';
-$dev = '.dev'; //.dev
+$test = '.test'; //.test
 require $docroot.'includes/language.php';
 require $docroot.'includes/vars.php';
 ?>
