@@ -1,0 +1,9 @@
+@import "../../../scss/retinajs";
+$bg:#8dcfbb;
+body {
+    background-color: $bg;
+}
+
+#bg1 {
+    @include at2x('../img/a');
+}

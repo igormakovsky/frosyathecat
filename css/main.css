@@ -1,8 +1,15 @@
 @charset "UTF-8";
 @import url(/bower_components/normalize-css/normalize.css);
 @font-face {
-  font-family: 'essential_pragmatapro';
-  src: url("../fonts/PragmataProMono.ttf") format("truetype");
+  font-family: 'pragmatapro';
+  src: url("../fonts/PragmataProR_liga_0826.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'pragmatapro_mono';
+  src: url("../fonts/PragmataPro_Mono_R_liga_0826.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
@@ -140,7 +147,7 @@ ol li {
 }
 
 .small, article section.text p.small {
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .smallest {
@@ -1774,13 +1781,11 @@ ol li {
 }
 
 .rev {
-  -webkit-animation-direction: reverse;
-          animation-direction: reverse;
+  animation-direction: reverse;
 }
 
 .altrev {
-  -webkit-animation-direction: alternate-reverse;
-          animation-direction: alternate-reverse;
+  animation-direction: alternate-reverse;
 }
 
 .touch, .drag img, .spin img {
@@ -1992,7 +1997,7 @@ article section.text {
 }
 
 article section.text p {
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   margin-bottom: 1.5rem;
 }
 

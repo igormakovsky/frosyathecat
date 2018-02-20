@@ -1,13 +1,13 @@
 @font-face {
     font-family: 'pragmatapro';
-    src: url('../fonts/PragmataProR_liga_0826.woff2') format('woff2')
+    src: url('../fonts/PragmataProR_liga_0826.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'pragmatapro_mono';
-    src: url('../fonts/PragmataPro_Mono_R_liga_0826.woff2') format('woff2'),
+    src: url('../fonts/PragmataPro_Mono_R_liga_0826.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 
@@ -155,7 +155,7 @@ ol {
 }
 
 .small {
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .smallest {

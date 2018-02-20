@@ -35,8 +35,8 @@
             Castle kitties
         </li>
 
-        <li id="" class="notavailable">
-            Tai Chi Cat
+        <li id="taichi">
+            <a href="/content/taichi/">Tai Chi Cat</a>
         </li>
 
         <li id="" class="notavailable">
@@ -70,8 +70,10 @@
             Elite
         </li>
 
-        <li id="" class="notavailable">
+        <li id="metal">
+            <a href="/content/metal/">
             Metal Mutcats
+            </a>
         </li>
 
         <li id="" class="notavailable">
@@ -134,8 +136,11 @@
             Cat Alert 3D
         </li>
 
-        <li id="" class="notavailable">
-            Frosya the Cat and the holy grail
+        <li id="grail">
+            <a href="/content/grail/">
+            <span lang="ru">Фрося и тайна золотой статуэтки</span>
+            <span lang="en">Frosya and the&nbsp;Mistery of&nbsp;the&nbsp;Golden Statuette</span>
+            </a>
         </li>
 
         <li id="cathering-1">

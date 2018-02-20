@@ -34,7 +34,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
             1998
         </p>
 
-        <p lang="ru" class="small">
+        <p lang="ru">
             <span class="smallest">Ночью в отделении полиции. Дарктейл дежурил на работе со своим коллегой.<br></span>
             <span class="name">Дарктейл</span>Эй, Боб, в «Кэтпресс» пишут, что в парке на неделе будет проводится праздник. Тут написано, что на этот праздник приедут важные шишки.<br>
             <span class="name">Боб</span>Праздник это хорошо, но раз там будут такие персоны, то копов тоже пригласят<br>
@@ -50,7 +50,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
             <span class="name">Дарктейл</span>Фу ты, блин, мне снилась моя жена без платья...<br>
             <span class="name">Шеф</span>Я смотрю, вы усердно трудитесь. Я, пожалуй, должен сказать, что ночью какие-то странные типы ходили около нашего отделения. Странно, что вы так удивились, они шумели. Вот. Они ходили с нацистской свастикой и их было довольно много. Посмотрите, может чего и обнаружите.
         </p>
-        <p lang="en" class="small">
+        <p lang="en">
             <span class="smallest">Night at the police department. Darktail was on duty with his collegue.<br></span>
             <span class="name">Darktail</span>Hey, Bob, «Catpress» said that a festival will take place in a park this week. It is said that big shots shall present also.<br>
             <span class="name">Bob</span>Festival is fine, though cops would be invited in case of such persons presence<br>
@@ -78,7 +78,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
        <div class="drag" style="right:3rem; top:5rem;"><img src="img/drag-4.png" srcset="img/drag-4@2x.png 2x"></div>
        <div class="drag" style="right:8rem; top:35rem;"><img src="img/drag-5.png" srcset="img/drag-5@2x.png 2x"></div>
        
-        <p lang="ru" class="small">
+        <p lang="ru">
             <span class="name">Дарктейл</span>Вот и третья мировая началась сегодня...<br>
             <span class="smallest">И уже дома...</span> <br>
             <span class="name">Дарктейл</span>Ну иди давай, детка.<br>
@@ -100,7 +100,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
             <span class="name">Дарктейл</span>Занятное местечко. Что-то тут не ладно.<br>
             <span class="name">Боб</span>Да, везде какая-то кислота!<br>
         </p>
-        <p lang="en" class="small">
+        <p lang="en">
             <span class="name">Darktail</span>Here comes the Third World War...<br>
             <span class="smallest">And back home...</span> <br>
             <span class="name">Darktail</span>Come here, baby.<br>
@@ -134,7 +134,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
        <div class="drag" style="left:4rem; top:35rem;"><img src="img/drag-7.png" srcset="img/drag-7@2x.png 2x"></div>
        <div class="drag" style="right:14rem; top:38rem;"><img src="img/drag-8.png" srcset="img/drag-8@2x.png 2x"></div>
        
-        <p lang="ru" class="small">
+        <p lang="ru">
             <span class="name">Бандит № 1</span>Босс, вроде здесь промышляют легавые...<br>
             <span class="name">Боб</span>Слышишь, Дарки, это чьи-то слова...<br>
             <span class="name">Дарктейл</span>Я немного их задержку...<br>
@@ -159,7 +159,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
             <span class="name">Пес-босс</span>Ну ладно. Конец связи!
         </p>
 
-        <p lang="en" class="small">
+        <p lang="en">
             <span class="name">Bandit #1</span>Boss, looks like a few cops are hanging around...<br>
             <span class="name">Bob</span>Hear that, Darky? There are some voices...<br>
             <span class="name">Darktail</span>I’ll hold them...<br>
@@ -193,7 +193,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
        
        <div class="drag" style="left:6rem; top:11rem;"><img src="img/drag-9.png" srcset="img/drag-9@2x.png 2x"></div>
        
-        <p lang="ru" class="small">
+        <p lang="ru">
             <span class="name">Боб</span>Очень интересно узнать о том, что он говорил о динамите...<br>
             <span class="name">Дарктейл</span>Наверняка они что-то замышляют. Где-то, наверное, хотят что-то взорвать. Пойдем туда.<br>
             <span class="name">Боб</span>Ты имеешь ввиду эту дверь?<br>
@@ -212,7 +212,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
             <span class="name">Дарктейл</span>Вы мне что-то сказали?<br>
         </p>
 
-        <p lang="en" class="small">
+        <p lang="en">
             <span class="name">Bob</span>I’d like to know more about the dynamite he was speaking about...<br>
             <span class="name">Darktail</span>I suppose, they’re planning something. Want to blow up something. Let’s go there.<br>
             <span class="name">Bob</span>You mean that door?<br>
@@ -241,7 +241,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
        <div class="drag" style="left:16rem; top:5rem;"><img src="img/drag-10.png" srcset="img/drag-10@2x.png 2x"></div>
        <div class="drag" style="left:3rem; top:12rem;"><img src="img/drag-11.png" srcset="img/drag-11@2x.png 2x"></div>
        
-        <p lang="ru" class="small">
+        <p lang="ru">
             <span class="name">Пес-босс № 1</span>Что-то наши не справляются... Нужно им помочь!<br>
             <span class="name">Пес-босс № 2</span>Покажи им, а то он что-то развоевался, этот Дарки...<br>
             <span class="name">Пес-босс № 1</span>Дарктейл, а как ты насчет этого ключика?<br>
@@ -259,7 +259,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
     </section>
 
     <section class="text" style="margin-top:2.5rem;">
-        <p lang="en" class="small">
+        <p lang="en">
             <span class="name">Dogboss #1</span>Our guys can’t make it... Have to help them!<br>
             <span class="name">Dogboss #2</span>Show them. That Darky is fighting a lot...<br>
             <span class="name">Dogboss #1</span>Darktail, what do you think about this wrench?<br>
@@ -284,7 +284,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
        
        <div class="drag" style="right:10rem; top:16rem;"><img src="img/drag-12.png" srcset="img/drag-12@2x.png 2x"></div>
        
-        <p lang="ru" class="small">
+        <p lang="ru">
             <span class="name">Пес-босс № 1</span>Найти его! Трое — останьтесь здесь. Пятеро — бегите искать.<br>
             <span class="name">Бандит № 6</span>Да, босс.<br>
             <span class="name">Боб</span>Надо проникнуть в буераки, спасти Дарки. Только бы они не пошли дальше, а то мне крышка. Мне нужно пробраться через окно, но как?... Прощай, пупсик!<br>
@@ -305,7 +305,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
             <span class="smallest">Пока бандиты разбирались с бедной птичкой, Боб успел попасть на закрытый завод.</span> <br>
         </p>
 
-        <p lang="en" class="small">
+        <p lang="en">
             <span class="name">Dogboss #1</span>Find him! Three of you stay here. Five — go find him.<br>
             <span class="name">Bandit #6</span>Yes, boss.<br>
             <span class="name">Bob</span>Have to get in the foundation. I wish they stop here or I’m dead. Have to pass through one of the windows, but how?... Bye, baby!<br>
@@ -332,7 +332,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
     </section>
 
     <section class="text" style="margin-top:2.5rem;">
-        <p lang="ru" class="small">
+        <p lang="ru">
             <span class="smallest">В это время пытали Дарктейла.</span> <br>
             <span class="name">Пес-босс № 1</span>Молчит, нафиг.<br>
             <span class="name">Пес-босс № 2</span>Успокой его с помощью этого.<br>
@@ -349,7 +349,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
             <span class="name">Боб (про себя)</span>Ах ты, хрен собачий!<br>
         </p>
 
-        <p lang="en" class="small">
+        <p lang="en">
             <span class="smallest">Meanwhile, Darktail was tortured.</span> <br>
             <span class="name">Dogboss #1</span>Keeping silence, damn.<br>
             <span class="name">Dogboss #2</span>Make him even more silent with this.<br>
@@ -376,7 +376,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
        <div class="drag" style="left:6rem; top:6rem;"><img src="img/drag-13.png" srcset="img/drag-13@2x.png 2x"></div>
        <div class="drag" style="left:16rem; top:14rem;"><img src="img/drag-14.png" srcset="img/drag-14@2x.png 2x"></div>
        
-        <p lang="ru" class="small">
+        <p lang="ru">
             <span class="name">Боб</span>Пс-с-с!<br>
             <span class="name">Дарктейл</span>Боб, это ты? У меня идея — когда он прийдет опять — развяжи веревки.<br>
             <span class="name">Пес-босс № 2</span>Куда ты? Его же нужно допросить!<br>
@@ -392,7 +392,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
             <span class="name">Дарктейл</span>Нужно отсюда быстрее сматываться!<br>
         </p>
 
-        <p lang="en" class="small">
+        <p lang="en">
             <span class="name">Bob</span>Ps-s-s!<br>
             <span class="name">Darktail</span>Bob is that you? I’ve got an idea — when he’ll come — loosen the ropes.<br>
             <span class="name">Dogboss #2</span>Where are you? He has to be interrogated<br>
@@ -414,7 +414,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
     </section>
 
     <section class="text" style="margin-top:2.5rem;">
-        <p lang="ru" class="small">
+        <p lang="ru">
             <span class="smallest">После долгого поиска выхода...</span> <br>
             <span class="name">Боб</span>Ну и вот тебе! Дарки, это сокровище!<br>
             <span class="name">Дарктейл</span>У нас есть книга — значит уже... ах ты, уже девять часов. Мои, наверное, уже с ума сошли!<br>
@@ -429,7 +429,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
             <span class="name">Дарктейл</span>Чик-чирик...<br>
         </p>
 
-        <p lang="en" class="small">
+        <p lang="en">
             <span class="smallest">After long searching for exit...</span> <br>
             <span class="name">Bob</span>Here you are! Darky, that’s a treasure!<br>
             <span class="name">Darktail</span>We’ve got a book — that already means... oh you, it’s already nine o’clock. Mine lost their wits already!<br>
@@ -450,7 +450,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
     </section>
 
     <section class="text" style="margin-top:2.5rem;">
-        <p lang="ru" class="small">
+        <p lang="ru">
             <span class="name">Мама</span>Кофе?<br>
             <span class="name">Дарктейл</span>Пожалуй...<br>
             <span class="smallest">И вот...</span> <br>
@@ -470,7 +470,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
             <span class="name">Боб</span>Ты меня разбудил! Да-да?<br>
         </p>
 
-        <p lang="en" class="small">
+        <p lang="en">
             <span class="name">Mom</span>Coffee?<br>
             <span class="name">Darktail</span>Please...<br>
             <span class="smallest">And then...</span> <br>
@@ -496,7 +496,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
     </section>
 
     <section class="text" style="margin-top:2.5rem;">
-        <p lang="ru" class="small">
+        <p lang="ru">
             <span class="smallest">Позже в полиции...</span> <br>
             <span class="name">Боб</span>Смотри, это церковь в парке, а это — парк развлечений.<br>
             <span class="name">Дарктейл</span>А не связываешь ли ты это с праздником завтра? Завтра день рождения Котлера. Динамит, праздник, книга со зданиями, эти загадочные нацисты! Что-ж...<br>
@@ -513,7 +513,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
             <span class="name">Посетитель</span>Смотри куда прешь!<br>
         </p>
 
-        <p lang="en" class="small">
+        <p lang="en">
             <span class="smallest">Later in police...</span> <br>
             <span class="name">Bob</span>Look, this is the park church and this is theme park.<br>
             <span class="name">Darktail</span>Don’t you find connections with the tomorrow festival? Tomorrow is Catler’s birthday. Dynamite, festival, book with these buildings, mysterious nazis! Well...<br>
@@ -536,7 +536,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
     </section>
 
     <section class="text" style="margin-top:2.5rem;">
-        <p lang="ru" class="small">
+        <p lang="ru">
             <span class="name">Дарктейл</span>Внимание! Все здесь скоро взорвется!<br>
             <span class="name">Посетительница</span>По тебе психушка плачет!<br>
             <span class="name">Дарктейл</span>Спасайтесь!<br>
@@ -548,7 +548,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
             <span class="name">Бандит № 12</span>Что-то получилось.<br>
         </p>
 
-        <p lang="en" class="small">
+        <p lang="en">
             <span class="name">Darktail</span>Caution! Everything will blow up here!<br>
             <span class="name">Visitor</span>You frigging nutcase!<br>
             <span class="name">Darktail</span>Escape!<br>
@@ -566,7 +566,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
     </section>
 
     <section class="text" style="margin-top:2.5rem;">
-        <p lang="ru" class="small">
+        <p lang="ru">
             <span class="name">Босс-пес № 1</span>О нет, копы тут как тут! Но они даже не подозревают какую катастрофу я им ученю... с помощью этой кнопочки дистанционного пульта! Ведь динамит подготовлен?<br>
             <span class="name">Бандит № 13</span>Разумеется, мои парни все устроили!<br>
             <span class="smallest">Тем временем, в парк на лимузине приехал папа и его тут же окружила пресса...</span> <br>
@@ -583,7 +583,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
             <span class="name">Президент</span>Прессу оставьте там, сзади...
         </p>
 
-        <p lang="en" class="small">
+        <p lang="en">
             <span class="name">Dogboss #1</span>Oh not the cops again! They even can’t imaging the catastrophe I’ll perpetrate... with the help of this radio button! Is the dynamite ready?<br>
             <span class="name">Bandit #13</span>Ofcourse, guys have prepared everything!<br>
             <span class="smallest">Meanwhile, Pope came to the park on his limo and was immediately surrounded by press...</span> <br>
@@ -610,7 +610,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
        <div class="drag" style="left:16rem; top:14rem;"><img src="img/drag-15.png" srcset="img/drag-15@2x.png 2x"></div>
        <div class="drag" style="right:5rem; top:3rem;"><img src="img/drag-16.png" srcset="img/drag-16@2x.png 2x"></div>
        
-        <p lang="ru" class="small">
+        <p lang="ru">
             <span class="name">Боб</span>Дарктейл, куда ты?<br>
             <span class="name">Дарктейл</span>Что сейчас будет!<br>
             <span class="smallest">В то время буль...</span> <br>
@@ -627,7 +627,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
             <span class="smallest">Продолжение следует...</span> <br>
         </p>
 
-        <p lang="en" class="small">
+        <p lang="en">
             <span class="name">Bob</span>Darktail, where are you going?<br>
             <span class="name">Darktail</span>What will be!<br>
             <span class="smallest">Meanwhile, the Dog...</span> <br>
